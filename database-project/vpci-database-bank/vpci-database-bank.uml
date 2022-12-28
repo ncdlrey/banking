@@ -1,0 +1,3658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_ecsCAHB3Ee2VJ9HmyiCPtw" name="vpci_database_bank">
+    <eAnnotations xmi:id="_en2JIHB3Ee2VJ9HmyiCPtw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_en2JIXB3Ee2VJ9HmyiCPtw" source="codegen">
+        <details xmi:id="_en2JInB3Ee2VJ9HmyiCPtw" key="codegenDirectory" value="/vpci-database-bank/src"/>
+        <details xmi:id="_gP5FAHB3Ee2VJ9HmyiCPtw" key="AssociatedSourceCode" value="/vpci-database-bank/src/Account.java;58398470/1;/vpci-database-bank/src/Bank.java;16139756/1;/vpci-database-bank/src/ChequingAccount.java;1232058914/1;/vpci-database-bank/src/CreditCard.java;1060028863/1;/vpci-database-bank/src/Customer.java;3922849253/1;/vpci-database-bank/src/SavingAccount.java;3810369946/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_e5boYHB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boYXB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boYnB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boY3B3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boZHB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boZXB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boZnB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_e5boZ3B3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_e5cPcHB3Ee2VJ9HmyiCPtw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_e4nwEHB3Ee2VJ9HmyiCPtw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_e4nwEXB3Ee2VJ9HmyiCPtw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9Lf8HB3Ee2VJ9HmyiCPtw" name="BufferedWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9MuEXB3Ee2VJ9HmyiCPtw" name="FileWriter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9N8MXB3Ee2VJ9HmyiCPtw" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9V4AHB3Ee2VJ9HmyiCPtw" name="BufferedReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e4o-MHB3Ee2VJ9HmyiCPtw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9HOgHB3Ee2VJ9HmyiCPtw" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9IcoHB3Ee2VJ9HmyiCPtw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9PKUHB3Ee2VJ9HmyiCPtw" name="InputMismatchException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_e9QYcHB3Ee2VJ9HmyiCPtw" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e5Wv4HB3Ee2VJ9HmyiCPtw" name="Account">
+      <ownedAttribute xmi:id="_e9fpAHB3Ee2VJ9HmyiCPtw" name="lastName" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9heMHB3Ee2VJ9HmyiCPtw" name="firstName" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9iFQHB3Ee2VJ9HmyiCPtw" name="sin" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9isUHB3Ee2VJ9HmyiCPtw" name="birthYear" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9khgHB3Ee2VJ9HmyiCPtw" name="birthMonth" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9khgnB3Ee2VJ9HmyiCPtw" name="birthDay" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9lIkXB3Ee2VJ9HmyiCPtw" name="savingAccountBalance" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9lIk3B3Ee2VJ9HmyiCPtw" name="chequingAccountBalance" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9lvoXB3Ee2VJ9HmyiCPtw" name="creditCardBalance" isStatic="true" isReadOnly="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9mWsXB3Ee2VJ9HmyiCPtw" name="found" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9mWsnB3Ee2VJ9HmyiCPtw" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9m9wHB3Ee2VJ9HmyiCPtw" name="buffer" visibility="package" isStatic="true" type="_e9V4AHB3Ee2VJ9HmyiCPtw" association="_e-KXYHB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9m9wnB3Ee2VJ9HmyiCPtw" name="output" visibility="package" isStatic="true" type="_e9Lf8HB3Ee2VJ9HmyiCPtw" association="_e-K-cXB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9m9xHB3Ee2VJ9HmyiCPtw" name="line" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9nk0XB3Ee2VJ9HmyiCPtw" name="allBankActivity" visibility="package" isStatic="true" type="_e9HOgHB3Ee2VJ9HmyiCPtw" association="_e-LlgXB3Ee2VJ9HmyiCPtw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9paAHB3Ee2VJ9HmyiCPtw" value="new ArrayList&lt;ArrayList&lt;String>>()"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e99jEHB3Ee2VJ9HmyiCPtw" name="Account" specification="_e5f50HB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e99jEXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jEnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jE3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jFHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jFXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jFnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jF3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jGHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jGXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e99jGnB3Ee2VJ9HmyiCPtw" type="_e5Wv4HB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>lastName = lName;&#xD;
+		firstName = fName;&#xD;
+		sin = userSin;&#xD;
+		birthYear = birthY;&#xD;
+		birthMonth = birthM;&#xD;
+		birthDay = birthD;&#xD;
+		savingAccountBalance = savAccBal;&#xD;
+		chequingAccountBalance = cheqAccBal;&#xD;
+		creditCardBalance = credCardBal;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-KIHB3Ee2VJ9HmyiCPtw" name="getCustomerWithSin" specification="_e5i9IHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-KIXB3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-KInB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}	&#xD;
+&#xD;
+			int index = textFileContents.indexOf(Integer.toString(s));&#xD;
+&#xD;
+			// Add info before sin&#xD;
+			for (int i =index-2; i&lt;index;i++) {&#xD;
+				customer.add(textFileContents.get(i));&#xD;
+			}&#xD;
+			// Add info after sin&#xD;
+			for (int i =index; i&lt;index+7;i++) {&#xD;
+				customer.add(textFileContents.get(i));&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot open file.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		// set all variables based on array with text file contents&#xD;
+		lastName = customer.get(0);&#xD;
+		firstName = customer.get(1);&#xD;
+		sin = Integer.parseInt(customer.get(2));&#xD;
+		birthYear = Integer.parseInt(customer.get(3));&#xD;
+		birthMonth = Integer.parseInt(customer.get(4));&#xD;
+		birthDay = Integer.parseInt(customer.get(5));&#xD;
+		if (customer.get(6).equals(&quot;none&quot;))&#xD;
+			savingAccountBalance = 0;&#xD;
+		else {&#xD;
+			savingAccountBalance = Double.parseDouble(customer.get(6));&#xD;
+		}&#xD;
+		if (customer.get(7).equals(&quot;none&quot;))&#xD;
+			chequingAccountBalance = 0;&#xD;
+		else {&#xD;
+			chequingAccountBalance = Double.parseDouble(customer.get(7));&#xD;
+		}&#xD;
+		if (customer.get(8).equals(&quot;none&quot;))&#xD;
+			creditCardBalance = 0;&#xD;
+		else {&#xD;
+			creditCardBalance = Double.parseDouble(customer.get(8));&#xD;
+		}&#xD;
+&#xD;
+		return customer;&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-KI3B3Ee2VJ9HmyiCPtw" name="getCustomerWithName" specification="_e5mAcHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-xMHB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xMXB3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xMnB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		int index = -1;&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}&#xD;
+&#xD;
+			for(int i=0; i&lt;textFileContents.size();i++) {&#xD;
+				if (textFileContents.get(i).equalsIgnoreCase(lN) &amp;&amp; textFileContents.get(i+1).equalsIgnoreCase(fN)) {&#xD;
+					index = i; // Save index if full name matches the input&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			for (int i =index; i&lt;index+10;i++) {&#xD;
+				customer.add(textFileContents.get(i));&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;Issue opening file.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		// set all variables based on array with text file contents&#xD;
+		lastName = customer.get(0);&#xD;
+		firstName = customer.get(1);&#xD;
+		sin = Integer.parseInt(customer.get(2));&#xD;
+		birthYear = Integer.parseInt(customer.get(3));&#xD;
+		birthMonth = Integer.parseInt(customer.get(4));&#xD;
+		birthDay = Integer.parseInt(customer.get(5));&#xD;
+		if (customer.get(6).equals(&quot;none&quot;))&#xD;
+			savingAccountBalance = 0;&#xD;
+		else {&#xD;
+			savingAccountBalance = Double.parseDouble(customer.get(6));&#xD;
+		}&#xD;
+		if (customer.get(7).equals(&quot;none&quot;))&#xD;
+			chequingAccountBalance = 0;&#xD;
+		else {&#xD;
+			chequingAccountBalance = Double.parseDouble(customer.get(7));&#xD;
+		}&#xD;
+		if (customer.get(8).equals(&quot;none&quot;))&#xD;
+			creditCardBalance = 0;&#xD;
+		else {&#xD;
+			creditCardBalance = Double.parseDouble(customer.get(8));&#xD;
+		}&#xD;
+		return customer;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-xM3B3Ee2VJ9HmyiCPtw" name="getAllAccounts" specification="_e5nOkXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-xNHB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Can't read file.&quot;);&#xD;
+		}&#xD;
+		return textFileContents;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-xNXB3Ee2VJ9HmyiCPtw" name="getName" specification="_e5ocsXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-xNnB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>return firstName + &quot; &quot; + lastName;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-xN3B3Ee2VJ9HmyiCPtw" name="accountActivity" specification="_e5pDwXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-xOHB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xOXB3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xOnB3Ee2VJ9HmyiCPtw" name="activity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>boolean historyExists = false;&#xD;
+&#xD;
+		for (int i = 0;i&lt;allBankActivity.size();i++) {&#xD;
+&#xD;
+			if (allBankActivity.get(i).get(0).equalsIgnoreCase(lN) &amp;&amp; allBankActivity.get(i).get(1).equalsIgnoreCase(fN)) {&#xD;
+				historyExists = true;&#xD;
+				allBankActivity.get(i).add(activity);&#xD;
+&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		if (historyExists == false) {&#xD;
+			ArrayList&lt;String> temp = new ArrayList&lt;String>();&#xD;
+			temp.add(lN);&#xD;
+			temp.add(fN);&#xD;
+			temp.add(activity);&#xD;
+			allBankActivity.add(temp);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9-xO3B3Ee2VJ9HmyiCPtw" name="getActivity" specification="_e5pq0XB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9-xPHB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xPXB3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9-xPnB3Ee2VJ9HmyiCPtw" name="uS">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>// if user found with sin&#xD;
+		if (uS!=0) {&#xD;
+			lN = Account.getCustomerWithSin(uS).get(0);&#xD;
+			fN = Account.getCustomerWithSin(uS).get(1);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+&#xD;
+		boolean historyExists = false;&#xD;
+&#xD;
+		int accIndex = -1;&#xD;
+		for (int i = 0; i&lt;allBankActivity.size();i++) {&#xD;
+			if (allBankActivity.get(i).get(0).equalsIgnoreCase(lN) &amp;&amp; allBankActivity.get(i).get(1).equalsIgnoreCase(fN)) {&#xD;
+				// history exists&#xD;
+				historyExists = true;&#xD;
+&#xD;
+				accIndex = i;&#xD;
+				System.out.println(allBankActivity.get(accIndex).get(1) + &quot; &quot; + allBankActivity.get(accIndex).get(0) + &quot;'S ACCOUNT HISTORY: &quot;);&#xD;
+				for (int j =2;j&lt;allBankActivity.get(accIndex).size();j++) {&#xD;
+					System.out.println(allBankActivity.get(accIndex).get(j));&#xD;
+				}	&#xD;
+&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		if (!historyExists) {&#xD;
+			System.out.println(&quot;No recent activity has been recorded.&quot;);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9_YQHB3Ee2VJ9HmyiCPtw" name="getSummary" specification="_e5qR4XB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9_YQXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9_YQnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9_YQ3B3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = Account.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = Account.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+		System.out.println(&quot;*******************************************************&quot;);&#xD;
+		System.out.println(&quot;CUSTOMER SUMMARY FOR: &quot; + customer.get(1).toUpperCase() + &quot; &quot; + customer.get(0).toUpperCase());&#xD;
+		System.out.println(&quot;--------&quot;);&#xD;
+&#xD;
+		System.out.println(&quot;LAST NAME: &quot; + customer.get(0));&#xD;
+		System.out.println(&quot;FIRST NAME: &quot; + customer.get(1));&#xD;
+		System.out.println(&quot;SIN: &quot; + customer.get(2));&#xD;
+		System.out.println(&quot;BIRTHDAY (YYYY/MM/DD): &quot; + customer.get(3) + &quot;/&quot; + customer.get(4) + &quot;/&quot; + customer.get(5));&#xD;
+		System.out.println(&quot;SAVING ACCOUNT BALANCE: &quot; + customer.get(6));&#xD;
+		System.out.println(&quot;CHEQUING ACCOUNT BALANCE: &quot; + customer.get(7));&#xD;
+		System.out.println(&quot;CREDIT CARD BALANCE: &quot; + customer.get(8));&#xD;
+		System.out.println(&quot;*******************************************************&quot;);&#xD;
+&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e5f50HB3Ee2VJ9HmyiCPtw" name="Account" method="_e99jEHB3Ee2VJ9HmyiCPtw">
+        <eAnnotations xmi:id="_e5hvAHB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_e5hvAXB3Ee2VJ9HmyiCPtw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_e5gg4HB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg4XB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg4nB3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg43B3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg5HB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg5XB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg5nB3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg53B3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5gg6HB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5iWEHB3Ee2VJ9HmyiCPtw" type="_e5Wv4HB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5i9IHB3Ee2VJ9HmyiCPtw" name="getCustomerWithSin" isStatic="true" method="_e9-KIHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5i9IXB3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9XtMHB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5mAcHB3Ee2VJ9HmyiCPtw" name="getCustomerWithName" isStatic="true" method="_e9-KI3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5mAcXB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5mAcnB3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9XtMXB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5nOkXB3Ee2VJ9HmyiCPtw" name="getAllAccounts" isStatic="true" method="_e9-xM3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9YUQHB3Ee2VJ9HmyiCPtw" type="_e9HOgHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5ocsXB3Ee2VJ9HmyiCPtw" name="getName" isStatic="true" method="_e9-xNXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5pDwHB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5pDwXB3Ee2VJ9HmyiCPtw" name="accountActivity" isStatic="true" method="_e9-xN3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5pDwnB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5pDw3B3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5pq0HB3Ee2VJ9HmyiCPtw" name="activity">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5pq0XB3Ee2VJ9HmyiCPtw" name="getActivity" method="_e9-xO3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5pq0nB3Ee2VJ9HmyiCPtw" name="lN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5pq03B3Ee2VJ9HmyiCPtw" name="fN">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5qR4HB3Ee2VJ9HmyiCPtw" name="uS">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5qR4XB3Ee2VJ9HmyiCPtw" name="getSummary" method="_e9_YQHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5qR4nB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5qR43B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5q48HB3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e5vxcHB3Ee2VJ9HmyiCPtw" name="Bank" visibility="package">
+      <ownedAttribute xmi:id="_e9qBEHB3Ee2VJ9HmyiCPtw" name="scan" visibility="package" isStatic="true" type="_e9QYcHB3Ee2VJ9HmyiCPtw" association="_e-MMkXB3Ee2VJ9HmyiCPtw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9qoIHB3Ee2VJ9HmyiCPtw" value="new Scanner (System.in)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9qoInB3Ee2VJ9HmyiCPtw" name="subMenuOpen" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9qoI3B3Ee2VJ9HmyiCPtw" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9rPMXB3Ee2VJ9HmyiCPtw" name="error" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9rPMnB3Ee2VJ9HmyiCPtw" value="false"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9_YRHB3Ee2VJ9HmyiCPtw" name="displayMainMenu" specification="_e5w_kHB3Ee2VJ9HmyiCPtw">
+        <language>java</language>
+        <body>System.out.println(&quot;\n--------------------------------------------------------\r\n&quot;&#xD;
+				+ &quot;>                     MAIN MENU                        &lt;\r\n&quot;&#xD;
+				+ &quot;--------------------------------------------------------\r\n&quot;&#xD;
+				+ &quot;\nPlease choose an action from the following: \r\n&quot; &#xD;
+				+ &quot;	1: Add a customer\r\n&quot;&#xD;
+				+ &quot;	2: Delete a customer\r\n&quot;&#xD;
+				+ &quot;	3: Sort customers by last name, first name\r\n&quot;&#xD;
+				+ &quot;	4: Sort customers by SIN\r\n&quot;&#xD;
+				+ &quot;	5: Display customer summary (name, SIN)\r\n&quot;&#xD;
+				+ &quot;	6: Find profile by last name, first name\r\n&quot;&#xD;
+				+ &quot;	7: Find profile by SIN\r\n&quot;&#xD;
+				+ &quot;	8: Quit\r\n&quot;&#xD;
+				+ &quot;&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9__UHB3Ee2VJ9HmyiCPtw" name="displaySubMenu" specification="_e5yNsHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9__UXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__UnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__U3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__VHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__VXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__VnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__V3B3Ee2VJ9HmyiCPtw" name="savAcc">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__WHB3Ee2VJ9HmyiCPtw" name="cheqAcc">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__WXB3Ee2VJ9HmyiCPtw" name="credBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int choice;&#xD;
+&#xD;
+		CreditCard newCredit = new CreditCard(lName, fName, userSin, birthY, birthM, birthD, savAcc, cheqAcc, credBal);&#xD;
+		SavingAccount newSavings = new SavingAccount(lName, fName, userSin, birthY, birthM, birthD, savAcc, cheqAcc, credBal);&#xD;
+		ChequingAccount newChequing = new ChequingAccount(lName, fName, userSin, birthY, birthM, birthD, savAcc, cheqAcc, credBal);&#xD;
+		Account newActivity = new Account(lName, fName, userSin, birthY, birthM, birthD, savAcc, cheqAcc, credBal);&#xD;
+&#xD;
+		newActivity.getSummary(lName, fName, userSin);&#xD;
+&#xD;
+		while (!error) {&#xD;
+			int subAction = 10;&#xD;
+&#xD;
+&#xD;
+&#xD;
+			System.out.println(&quot;\n--------------------------------------------------------\r\n&quot;&#xD;
+					+ &quot;>                     PROFILE MENU                     &lt;\r\n&quot;&#xD;
+					+ &quot;--------------------------------------------------------\r\n&quot;&#xD;
+					+ &quot;\nPlease choose an action from the following: \r\n&quot; &#xD;
+					+ &quot;	 1: View account activity\r\n&quot;&#xD;
+					+ &quot;	 2: Deposit\r\n&quot;&#xD;
+					+ &quot;	 3: Withdraw\r\n&quot;&#xD;
+					+ &quot;	 4: Process cheque\r\n&quot; &#xD;
+					+ &quot;	 5: Process purchase\r\n&quot;&#xD;
+					+ &quot;	 6: Process payment for credit card\r\n&quot; &#xD;
+					+ &quot;	 7: Transfer funds\r\n&quot; &#xD;
+					+ &quot;	 8: Open account or issue card\r\n&quot;&#xD;
+					+ &quot;	 9: Cancel account or card\r\n&quot;&#xD;
+					+ &quot;	10: Return to main menu\r\n&quot;);&#xD;
+&#xD;
+&#xD;
+&#xD;
+			try {&#xD;
+				System.out.print(&quot;SELECTION: &quot;);&#xD;
+				subAction = scan.nextInt();&#xD;
+&#xD;
+&#xD;
+				while (subAction>10) {&#xD;
+					System.out.println(&quot;Please ONLY choose an action from within the menu: &quot;);&#xD;
+					System.out.print(&quot;SELECTION: &quot;);&#xD;
+					subAction = scan.nextInt();&#xD;
+				}&#xD;
+			}&#xD;
+			catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+				error = true;&#xD;
+				break;&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+			if (subAction==10) {&#xD;
+				break;&#xD;
+			}&#xD;
+&#xD;
+			else{&#xD;
+&#xD;
+				switch(subAction) {&#xD;
+				case 1: // View activity&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>       You have chosen to VIEW ACCOUNT ACTIVITY       &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					newActivity.getActivity(lName, fName, userSin);&#xD;
+					break;&#xD;
+&#xD;
+				case 2: // Deposit&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>              You have chosen to DEPOSIT              &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+&#xD;
+					System.out.println(&quot;\nWHICH ACCOUNT WOULD YOU LIKE TO DEPOSIT INTO?:\n&quot;);&#xD;
+					System.out.println(&quot;1. SAVINGS ACCOUNT\n2. CHEQUING ACCOUNT&quot;);&#xD;
+					System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+					try {&#xD;
+						choice = scan.nextInt();&#xD;
+						if (choice == 1) {&#xD;
+							newSavings.deposit(lName, fName, userSin);&#xD;
+						}&#xD;
+						else if (choice == 2) {&#xD;
+							newChequing.deposit(lName, fName, userSin);&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					break;&#xD;
+&#xD;
+				case 3: // Withdraw&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>              You have chosen to WITHDRAW             &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+&#xD;
+					System.out.println(&quot;\nWHICH ACCOUNT WOULD YOU LIKE TO WITHDRAW FROM?:\n&quot;);&#xD;
+					System.out.println(&quot;1. SAVINGS ACCOUNT\n2. CHEQUING ACCOUNT&quot;);&#xD;
+					System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+&#xD;
+					try {&#xD;
+						choice = scan.nextInt();&#xD;
+						if (choice == 1) {&#xD;
+							newSavings.withdraw(lName, fName, userSin);&#xD;
+						}&#xD;
+						else if (choice == 2) {&#xD;
+							newChequing.withdraw(lName, fName, userSin);&#xD;
+						}&#xD;
+&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+&#xD;
+					break;&#xD;
+&#xD;
+				case 4: // Process cheque&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>           You have chosen to PROCESS CHEQUE          &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					newChequing.processCheque(lName, fName, userSin);&#xD;
+					break;&#xD;
+&#xD;
+				case 5: //5: Process purchase &#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>          You have chosen to PROCESS PURCHASE         &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					newCredit.processPurchase(lName, fName, userSin);&#xD;
+					break;&#xD;
+&#xD;
+				case 6: &#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;\\                  You have chosen to                  /&quot;);&#xD;
+					System.out.println(&quot;/           PROCESS PAYMENT FOR A CREDIT CARD          \\&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+					newCredit.processPayment(lName, fName, userSin);&#xD;
+					break;&#xD;
+&#xD;
+				case 7:&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>            You have chosen to TRANSFER FUNDS         &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;1. SAVINGS to CHEQUING&quot;);&#xD;
+					System.out.println(&quot;2. CHEQUING to SAVINGS&quot;);&#xD;
+					try {&#xD;
+						choice = scan.nextInt();&#xD;
+						if (choice == 1) {&#xD;
+							newSavings.transfer(lName, fName, userSin);&#xD;
+						}&#xD;
+						else if (choice ==2) {&#xD;
+							newChequing.transfer(lName, fName, userSin);&#xD;
+&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+&#xD;
+					break;&#xD;
+				case 8: // Open Account or issue card&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;\\                  You have chosen to                  /&quot;);&#xD;
+					System.out.println(&quot;/           OPEN AN ACCOUNT/ISSUE A CREDIT CARD        \\&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+&#xD;
+					System.out.println(&quot;ADD ACCOUNT or ISSUE CREDIT CARD?:\n&quot;);&#xD;
+					System.out.println(&quot;1. ADD ACCOUNT\n2. ISSUE A CREDIT CARD&quot;);&#xD;
+					System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+&#xD;
+					try {&#xD;
+						choice = scan.nextInt();&#xD;
+&#xD;
+						if (choice ==1) {&#xD;
+							System.out.println(&quot;\nWHAT KIND OF ACCOUNT WOULD YOU LIKE TO ADD?:\n&quot;);&#xD;
+							System.out.println(&quot;1. SAVINGS ACCOUNT\n2. CHEQUING ACCOUNT&quot;);&#xD;
+							System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+							try {&#xD;
+								int y = scan.nextInt();&#xD;
+								if (y==1) {&#xD;
+									newSavings.addAccount(lName, fName, userSin);&#xD;
+								}&#xD;
+								else if (y==2) {&#xD;
+									newChequing.addAccount(lName, fName, userSin);&#xD;
+								}&#xD;
+								else {&#xD;
+									System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+								}&#xD;
+							}&#xD;
+							catch (InputMismatchException e) {&#xD;
+								System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+								error = true;&#xD;
+								break;&#xD;
+							}&#xD;
+						}&#xD;
+&#xD;
+						else if(choice ==2) {&#xD;
+							newCredit.issueCreditCard(lName, fName, userSin);&#xD;
+							break;&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+&#xD;
+					break;&#xD;
+&#xD;
+				case 9: // Cancel card or account&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>         You have chosen to CANCEL CARD/ACCOUNT       &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;WOULD YOU LIKE TO CANCEL ACCOUNT or CREDIT CARD?:\n&quot;);&#xD;
+					System.out.println(&quot;1. CANCEL SAVINGS ACCOUNT\n2. CANCEL CHEQUING ACCOUNT\n3. CANCEL CREDIT CARD &quot;);&#xD;
+					System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+					try {&#xD;
+						choice = scan.nextInt();&#xD;
+						if (choice == 1) {&#xD;
+							newSavings.cancel(lName, fName, userSin);&#xD;
+						}&#xD;
+&#xD;
+						else if (choice == 2) {&#xD;
+							newChequing.cancel(lName, fName, userSin);&#xD;
+						}&#xD;
+&#xD;
+						else if(choice == 3) {&#xD;
+							newCredit.cancel(lName, fName, userSin);&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Back to PROFILE MENU...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+					break;&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9__WnB3Ee2VJ9HmyiCPtw" name="main" specification="_e5zb0HB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9__W3B3Ee2VJ9HmyiCPtw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e9__XHB3Ee2VJ9HmyiCPtw" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>String lastName = null;&#xD;
+		String firstName = null;&#xD;
+		int sin = 0;&#xD;
+		int birthYear = 0;&#xD;
+		int birthMonth = 0;&#xD;
+		int birthDay = 0;&#xD;
+		double savingAccountBalance = 0;&#xD;
+		double chequingAccountBalance = 0;&#xD;
+		double creditCardBalance = 0;&#xD;
+&#xD;
+		int searchMethod;&#xD;
+		int sortMethod;&#xD;
+&#xD;
+&#xD;
+		// MAIN MENU&#xD;
+		System.out.println(&quot;========================================================\r\n&quot; &#xD;
+				+&quot;                Welcome to the VP Bank!\r\n&quot; &#xD;
+				+ &quot;========================================================&quot;);&#xD;
+&#xD;
+&#xD;
+		while (!error) {&#xD;
+			int action = 8;&#xD;
+&#xD;
+			displayMainMenu();&#xD;
+&#xD;
+			try {&#xD;
+				System.out.print(&quot;SELECTION: &quot;);&#xD;
+				action = scan.nextInt();&#xD;
+&#xD;
+				while (action>8) {&#xD;
+					System.out.println(&quot;Please ONLY choose an action from within the menu: &quot;);&#xD;
+					System.out.print(&quot;SELECTION: &quot;);&#xD;
+					action = scan.nextInt();&#xD;
+				}&#xD;
+			}&#xD;
+			catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Invalid sub action.&quot;);&#xD;
+				error = true;&#xD;
+				break;&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+			if (action==8) {&#xD;
+				break;&#xD;
+			}&#xD;
+&#xD;
+			else{&#xD;
+				//displayMainMenu();&#xD;
+&#xD;
+&#xD;
+				switch(action) {&#xD;
+				case 1: //Add account&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>           You have chosen to ADD CUSTOMER            &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;   +-+-+ Please enter the following information +-+-+\n&quot;);&#xD;
+&#xD;
+					try {&#xD;
+&#xD;
+						scan.nextLine();&#xD;
+						System.out.print(&quot;LAST NAME: &quot;); &#xD;
+						lastName = scan.nextLine();&#xD;
+&#xD;
+						System.out.print(&quot;FIRST NAME: &quot;);&#xD;
+						firstName = scan.nextLine();&#xD;
+&#xD;
+						System.out.print(&quot;SIN: &quot;);&#xD;
+						sin = scan.nextInt();&#xD;
+						while(String.valueOf(sin).length()>9 || String.valueOf(sin).length()&lt;9) {&#xD;
+							System.out.print(&quot;Must be 9 digits long: &quot;);&#xD;
+							sin = scan.nextInt();&#xD;
+						}&#xD;
+&#xD;
+						System.out.print(&quot;BIRTH YEAR: &quot;);&#xD;
+						birthYear = scan.nextInt();&#xD;
+						while (birthYear&lt;=0||birthYear>2022) {&#xD;
+							System.out.print(&quot;Must be before 2022: &quot;);&#xD;
+							birthYear = scan.nextInt();&#xD;
+						}&#xD;
+&#xD;
+						System.out.print(&quot;BIRTH MONTH: &quot;);&#xD;
+						birthMonth = scan.nextInt();&#xD;
+						while (birthMonth&lt;=0 || birthMonth>12) {&#xD;
+							System.out.print(&quot;Must be between 1-12: &quot;);&#xD;
+							birthMonth = scan.nextInt();&#xD;
+						}&#xD;
+&#xD;
+						System.out.print(&quot;BIRTH DATE: &quot;);&#xD;
+						birthDay = scan.nextInt();&#xD;
+						while (birthDay&lt;=0 || birthDay>31) {&#xD;
+							System.out.print(&quot;Must be between 1-31: &quot;);&#xD;
+							birthDay = scan.nextInt();&#xD;
+						}&#xD;
+&#xD;
+						// Credit card, saving account, and chequing account balance are set to 0 as default&#xD;
+						Customer.addAccount(lastName, firstName, sin, birthYear, birthMonth, birthDay, savingAccountBalance, chequingAccountBalance, creditCardBalance);&#xD;
+&#xD;
+&#xD;
+					}&#xD;
+&#xD;
+					// Terminate entry if wrong data type is entered&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error=true;&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					break;&#xD;
+&#xD;
+				case 2:&#xD;
+&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>          You have chosen to DELETE CUSTOMER          &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;     +-+ How would you like to delete the user? +-+\n&quot;);&#xD;
+&#xD;
+					// Ask user if they'd like to find the user through name or SIN&#xD;
+					try {&#xD;
+						System.out.println(&quot;\t1. Delete by entering NAME&quot; + &quot;\n\t2. Delete by entering SIN&quot;);&#xD;
+						System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+						searchMethod = scan.nextInt();&#xD;
+&#xD;
+						if (searchMethod ==1) {&#xD;
+							scan.nextLine();&#xD;
+							System.out.print(&quot;Enter FIRST NAME: &quot;);&#xD;
+							firstName = scan.nextLine();&#xD;
+							System.out.print(&quot;Enter LAST NAME: &quot;);&#xD;
+							lastName = scan.nextLine();&#xD;
+&#xD;
+							Customer.deleteWithName(lastName, firstName);&#xD;
+						}&#xD;
+						else if (searchMethod==2) {&#xD;
+							System.out.println(&quot;Enter SIN: &quot;);&#xD;
+							sin = scan.nextInt();&#xD;
+							Customer.deleteWithSin(sin);&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Going back to main menu...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error=true;&#xD;
+&#xD;
+					}&#xD;
+					break;&#xD;
+&#xD;
+				case 3:&#xD;
+&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;\\                  You have chosen to                  /&quot;);&#xD;
+					System.out.println(&quot;/              SORT with FIRST &amp; LAST NAME             \\&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+&#xD;
+					try {&#xD;
+						System.out.println(&quot;Would you like to sort by fist name or last name?&quot;);&#xD;
+						System.out.println(&quot;\t1. FIRST NAME \t2.LAST NAME&quot;);&#xD;
+						System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+						sortMethod = scan.nextInt();&#xD;
+&#xD;
+						if (sortMethod==1) {&#xD;
+							Customer.sortByFirstName();&#xD;
+							System.out.println(&quot;Customers have been sorted in text file.&quot;);&#xD;
+&#xD;
+						}&#xD;
+						else if (sortMethod==2) {&#xD;
+							Customer.sortByLastName();&#xD;
+							System.out.println(&quot;Customers have been sorted in text file.&quot;);&#xD;
+&#xD;
+&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Going back to main menu...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException ex) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error = true;&#xD;
+					}&#xD;
+					break;&#xD;
+&#xD;
+				case 4:&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>             You have chosen to SORT with SIN         &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+					Customer.sortBySin();&#xD;
+					System.out.println(&quot;Customers have been sorted.&quot;);&#xD;
+					break;&#xD;
+&#xD;
+				case 5:&#xD;
+					try {&#xD;
+						System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+						System.out.println(&quot;\\                  You have chosen to                  /&quot;);&#xD;
+						System.out.println(&quot;/                DISPLAY CUSTOMER SUMMARY              \\&quot;);&#xD;
+						System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+&#xD;
+						System.out.println(&quot;Would you like to display all accounts or only one?: &quot;);&#xD;
+						System.out.println(&quot;\n1. View ALL (name, sin) \n2. View specific account&quot;);&#xD;
+						System.out.print(&quot;\nSELECTION: &quot;);&#xD;
+						int choose = scan.nextInt();&#xD;
+						System.out.println(&quot;&quot;);&#xD;
+&#xD;
+						if (choose==1) {&#xD;
+							Customer.displayAll();&#xD;
+						}&#xD;
+						else if(choose==2) {&#xD;
+							System.out.println(&quot;Please enter the following information to view summary:&quot;);&#xD;
+							scan.nextLine();&#xD;
+							System.out.print(&quot;FIRST NAME: &quot;);&#xD;
+							firstName = scan.nextLine();&#xD;
+							System.out.print(&quot;LAST NAME: &quot;);&#xD;
+							lastName = scan.nextLine();&#xD;
+							System.out.print(&quot;SIN: &quot;);&#xD;
+							sin = scan.nextInt();&#xD;
+							Customer.displayCustomerSummary(firstName,lastName,sin);&#xD;
+						}&#xD;
+						else {&#xD;
+							System.out.println(&quot;Option does not exist. Going back to main menu...&quot;);&#xD;
+						}&#xD;
+					}&#xD;
+					catch (InputMismatchException ex) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error = true;&#xD;
+					}&#xD;
+&#xD;
+					break;&#xD;
+&#xD;
+				case 6:&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;\\                  You have chosen to                  /&quot;);&#xD;
+					System.out.println(&quot;/          FIND CUSTOMER with FIRST &amp; LAST NAME        \\&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+					scan.nextLine();&#xD;
+					try {&#xD;
+						System.out.print(&quot;Enter FIRST NAME: &quot;);&#xD;
+						firstName = scan.nextLine();&#xD;
+						System.out.print(&quot;Enter LAST NAME: &quot;);&#xD;
+						lastName = scan.nextLine();&#xD;
+					}&#xD;
+					catch (InputMismatchException e) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error=true;&#xD;
+&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					if (Customer.findWithName(lastName, firstName)) {&#xD;
+						System.out.println(&quot;\nAccount found!&quot;);&#xD;
+						System.out.println(&quot;Opening profile menu...\n&quot;);&#xD;
+						subMenuOpen = true;&#xD;
+						displaySubMenu(lastName, firstName, 0, birthYear, birthMonth, birthDay, savingAccountBalance, chequingAccountBalance, creditCardBalance);&#xD;
+						// sin set to 0 to avoid issues when altering multiple accounts&#xD;
+					}&#xD;
+					else &#xD;
+						System.out.println(&quot;\nAccount not found.\n&quot;);			&#xD;
+					break;&#xD;
+&#xD;
+				case 7:&#xD;
+					System.out.println(&quot;\n--------------------------------------------------------&quot;);&#xD;
+					System.out.println(&quot;>       You have chosen to FIND CUSTOMER with SIN      &lt;&quot;);&#xD;
+					System.out.println(&quot;--------------------------------------------------------\n&quot;);&#xD;
+					System.out.print(&quot;Enter SIN: &quot;);&#xD;
+					try {&#xD;
+						sin = scan.nextInt();&#xD;
+					}&#xD;
+					catch (InputMismatchException ex) {&#xD;
+						System.out.println(&quot;Invalid entry.&quot;);&#xD;
+						error = true;&#xD;
+						break;&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					if (Customer.findWithSin(sin)) {&#xD;
+						System.out.println(&quot;\nAccount found!&quot;);&#xD;
+						System.out.println(&quot;Opening profile menu...\n&quot;);&#xD;
+						subMenuOpen = true;&#xD;
+						displaySubMenu(null, null, sin, birthYear, birthMonth, birthDay, savingAccountBalance, chequingAccountBalance, creditCardBalance);&#xD;
+						// names set to null to avoid issues when altering multiple accounts&#xD;
+&#xD;
+					}&#xD;
+					else &#xD;
+						System.out.println(&quot;\nAccount not found.\n&quot;);&#xD;
+					break;&#xD;
+				} &#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;\nEXITING PROGRAM&quot;);&#xD;
+		System.out.println(&quot;THANK YOU FOR USING VP BANK!&quot;);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e5w_kHB3Ee2VJ9HmyiCPtw" name="displayMainMenu" isStatic="true" method="_e9_YRHB3Ee2VJ9HmyiCPtw"/>
+      <ownedOperation xmi:id="_e5yNsHB3Ee2VJ9HmyiCPtw" name="displaySubMenu" isStatic="true" method="_e9__UHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5yNsXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0wHB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0wXB3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0wnB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0w3B3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0xHB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0xXB3Ee2VJ9HmyiCPtw" name="savAcc">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0xnB3Ee2VJ9HmyiCPtw" name="cheqAcc">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5y0x3B3Ee2VJ9HmyiCPtw" name="credBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e5zb0HB3Ee2VJ9HmyiCPtw" name="main" isStatic="true" method="_e9__WnB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e5zb0XB3Ee2VJ9HmyiCPtw" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e50C4HB3Ee2VJ9HmyiCPtw" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e51RAHB3Ee2VJ9HmyiCPtw" name="ChequingAccount">
+      <generalization xmi:id="_e9FZUHB3Ee2VJ9HmyiCPtw" general="_e5Wv4HB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9rPNHB3Ee2VJ9HmyiCPtw" name="scan" visibility="package" isStatic="true" type="_e9QYcHB3Ee2VJ9HmyiCPtw" association="_e-MzoXB3Ee2VJ9HmyiCPtw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9rPNXB3Ee2VJ9HmyiCPtw" value="new Scanner (System.in)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9r2QXB3Ee2VJ9HmyiCPtw" name="activity" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e9__XXB3Ee2VJ9HmyiCPtw" name="ChequingAccount" specification="_e54UUHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e9__XnB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__X3B3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__YHB3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__YXB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__YnB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__Y3B3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__ZHB3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__ZXB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__ZnB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e9__Z3B3Ee2VJ9HmyiCPtw" type="_e51RAHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>super(lName, fName, userSin, birthY, birthM, birthD, savAccBal, cheqAccBal, credCardBal);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-AmYHB3Ee2VJ9HmyiCPtw" name="addAccount" specification="_e55icHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-AmYXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-AmYnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-AmY3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList &lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if(sin==0) { // account found with names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+		else {&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check first if they meet minimum age requirement &#xD;
+		if(2022-super.getBirthYear()&lt;=18) {&#xD;
+			System.out.println(&quot;You cannot own a chequing account. Chequing accounts are available only to customers over 18.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they already have a chequing account&#xD;
+		else if (customer.get(7).equals(&quot;none&quot;)) { //They don't have an account&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				for (int i =0;i&lt;allAccounts.size();i++) {&#xD;
+					if (i == index+7) {&#xD;
+						allAccounts.set(i, &quot;0&quot;);&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+&#xD;
+				// In text file, update 'none' to 0.&#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+				}&#xD;
+				output.close();&#xD;
+&#xD;
+				// Update account history&#xD;
+				activity = &quot;Chequing account opened&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(&quot;A CHEQUING ACCOUNT has been OPENED for &quot; + super.getName());&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+		else {&#xD;
+			System.out.println(&quot;Chequing account already exists.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-AmZHB3Ee2VJ9HmyiCPtw" name="deposit" specification="_e56wkHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-AmZXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-AmZnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-AmZ3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else { // If customer DOES have account&#xD;
+			try {&#xD;
+				// Ask how much user would like to deposit&#xD;
+				double deposit;&#xD;
+				System.out.print(&quot;How much would you like to deposit: $&quot;);&#xD;
+				try {&#xD;
+					deposit = scan.nextDouble();&#xD;
+&#xD;
+					while(deposit&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						deposit = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+					allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+					for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+						if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+							index = i; // Save index if full name matches&#xD;
+						}&#xD;
+					}&#xD;
+&#xD;
+					// Update arrayList with new chequing balance&#xD;
+					double newChequingValue = deposit + Double.parseDouble(allAccounts.get(index+7));&#xD;
+					allAccounts.set(index+7, Double.toString(newChequingValue));&#xD;
+&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					// In text file, update chequing balance&#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + deposit + &quot; deposited into CHEQUING ACCOUNT. New CHEQUING BALANCE: $&quot; + allAccounts.get(index+7);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + deposit + &quot; HAS BEEN DEPOSITED INTO &quot; + super.getName() + &quot;'S CHEQUING ACCOUNT&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-AmaHB3Ee2VJ9HmyiCPtw" name="withdraw" specification="_e56wlHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-AmaXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-AmanB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Ama3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else if (customer.get(7).equals(&quot;0&quot;)) { // Customer cannot withdraw without any current balance&#xD;
+			System.out.println(&quot;No money exists in chequing account to withdraw.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else { // If customer DOES have account and it's not empty&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to withdraw&#xD;
+				try {&#xD;
+					double withdraw;&#xD;
+					System.out.print(&quot;How much would you like to withdraw: $&quot;);&#xD;
+					withdraw = scan.nextDouble();&#xD;
+&#xD;
+					while(withdraw&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						withdraw = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					while (withdraw>Double.parseDouble(allAccounts.get(index+7))) {&#xD;
+						System.out.println(&quot;You cannot withdraw more than the current balance ($&quot; + Double.parseDouble(allAccounts.get(index+7)) + &quot;)&quot;);&#xD;
+						System.out.print(&quot;Re-enter a smaller value: &quot;);&#xD;
+						withdraw = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					// Calculate new value to store as chequings balance after withdrawal&#xD;
+					double newChequingValue = Double.parseDouble(allAccounts.get(index+7)) - withdraw;&#xD;
+					// Update the arrayList with new chequings balance&#xD;
+					allAccounts.set(index+7, Double.toString(newChequingValue));&#xD;
+&#xD;
+					// In text file, update chequings balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + withdraw + &quot; withdrawn from CHEQUING ACCOUNT. New CHEQUING BALANCE: $&quot; + allAccounts.get(index+7);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + withdraw + &quot; HAS BEEN WITHDRAWN FROM &quot; + super.getName() + &quot;'S CHEQUNG ACCOUNT&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-BNcHB3Ee2VJ9HmyiCPtw" name="processCheque" specification="_e57Xo3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-BNcXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNcnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNc3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist.&quot;);&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+		else { // If customer DOES have account&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to deposit&#xD;
+				try {&#xD;
+					double processAmount;&#xD;
+					System.out.print(&quot;How much is being processed?: $&quot;);&#xD;
+					processAmount = scan.nextDouble();&#xD;
+&#xD;
+					while(processAmount&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						processAmount = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					// Check if current chequing balance is under $1000, if it is, deduct $0.15 from amount being processed&#xD;
+					if (Double.parseDouble(allAccounts.get(index+7))&lt;1000) {&#xD;
+						processAmount -= 0.15;&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					// Calculate new value to store as chequings balance after processing cheque&#xD;
+					double newChequingValue = Double.parseDouble(allAccounts.get(index+7)) + processAmount;&#xD;
+					// Update the arrayList with new chequings balance&#xD;
+					allAccounts.set(index+7, Double.toString(newChequingValue));&#xD;
+&#xD;
+					// In text file, update chequings balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + processAmount + &quot; was PROCESSED from a cheque. New CHEQUING BALANCE: $&quot; + allAccounts.get(index+7);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + processAmount + &quot; HAS BEEN PROCESSED INTO &quot; + super.getName() + &quot;'S CHEQUNG ACCOUNT FROM A CHEQUE&quot;);&#xD;
+&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-BNdHB3Ee2VJ9HmyiCPtw" name="transfer" specification="_e57-sXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-BNdXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNdnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNd3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a savings account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist to transfer money from.&quot;);&#xD;
+		}&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Savings account does not exist to transfer money into.&quot;);&#xD;
+		}&#xD;
+		else if (customer.get(7).equals(&quot;0&quot;)) { // If customer doesn't have money&#xD;
+			System.out.println(&quot;No money available to transfer.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			// transfer funds&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to transfer&#xD;
+				try {&#xD;
+					double transfer;&#xD;
+					System.out.print(&quot;How much would you like to transfer: $&quot;);&#xD;
+					transfer = scan.nextDouble();&#xD;
+&#xD;
+					while(transfer&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						transfer = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					while (transfer>Double.parseDouble(allAccounts.get(index+7))) {&#xD;
+						System.out.println(&quot;You cannot transfer more than the current balance ($&quot; + Double.parseDouble(allAccounts.get(index+7)) + &quot;)&quot;);&#xD;
+						System.out.print(&quot;Re-enter a smaller value: &quot;);&#xD;
+						transfer = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					// Calculate new value to store as savings &amp; chequing balance after transfer&#xD;
+					double newChequingValue = Double.parseDouble(allAccounts.get(index+7)) - transfer;&#xD;
+					double newSavingsValue = Double.parseDouble(allAccounts.get(index+6)) + transfer;&#xD;
+					// Update the arrayList with new savings &amp; chequing balance&#xD;
+					allAccounts.set(index+6, Double.toString(newSavingsValue));&#xD;
+					allAccounts.set(index+7, Double.toString(newChequingValue));&#xD;
+&#xD;
+&#xD;
+					// In text file, update savings balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + transfer + &quot; TRANSFERED from CHEQUING ACCOUNT to SAVINGS ACCOUNT. New CHEQUING BALANCE: $&quot; + allAccounts.get(index+7);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + transfer + &quot; HAS BEEN transfered FROM &quot; + super.getName() + &quot;'S CHEQUING ACCOUNT to SAVING ACCOUNT.&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-BNeHB3Ee2VJ9HmyiCPtw" name="cancel" specification="_e58lwXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-BNeXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNenB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNe3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Update the arrayList with new chequing deletion&#xD;
+				allAccounts.set(index+7, &quot;none&quot;);&#xD;
+&#xD;
+&#xD;
+				// In text file, update savings balance&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+&#xD;
+				}&#xD;
+&#xD;
+				output.close();&#xD;
+&#xD;
+				activity = &quot;CHEQUING ACCOUNT CANCELLED&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(super.getName() + &quot;'S CHEQUING ACCOUNT CANCELLED.&quot;);&#xD;
+			}&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e54UUHB3Ee2VJ9HmyiCPtw" name="ChequingAccount" method="_e9__XXB3Ee2VJ9HmyiCPtw">
+        <eAnnotations xmi:id="_e547YnB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_e547Y3B3Ee2VJ9HmyiCPtw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_e54UUXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UUnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UU3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UVHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UVXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UVnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e54UV3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e547YHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e547YXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e547ZHB3Ee2VJ9HmyiCPtw" type="_e51RAHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e55icHB3Ee2VJ9HmyiCPtw" name="addAccount" method="_e-AmYHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e55icXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e56JgHB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e56JgXB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e56wkHB3Ee2VJ9HmyiCPtw" name="deposit" method="_e-AmZHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e56wkXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e56wknB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e56wk3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e56wlHB3Ee2VJ9HmyiCPtw" name="withdraw" method="_e-AmaHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e57XoHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e57XoXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e57XonB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e57Xo3B3Ee2VJ9HmyiCPtw" name="processCheque" method="_e-BNcHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e57XpHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e57XpXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e57-sHB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e57-sXB3Ee2VJ9HmyiCPtw" name="transfer" method="_e-BNdHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e57-snB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e57-s3B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e58lwHB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e58lwXB3Ee2VJ9HmyiCPtw" name="cancel" method="_e-BNeHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e58lwnB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e58lw3B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e59M0HB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e5-a8HB3Ee2VJ9HmyiCPtw" name="CreditCard">
+      <generalization xmi:id="_e9GncHB3Ee2VJ9HmyiCPtw" general="_e5Wv4HB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9sdUXB3Ee2VJ9HmyiCPtw" name="activity" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9tEYXB3Ee2VJ9HmyiCPtw" name="scan" visibility="package" isStatic="true" type="_e9QYcHB3Ee2VJ9HmyiCPtw" association="_e-NasXB3Ee2VJ9HmyiCPtw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9tEYnB3Ee2VJ9HmyiCPtw" value="new Scanner(System.in)"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9tEZHB3Ee2VJ9HmyiCPtw" name="line" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-BNfHB3Ee2VJ9HmyiCPtw" name="CreditCard" specification="_e5_CAHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-BNfXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNfnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNf3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNgHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNgXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNgnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNg3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNhHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNhXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-BNhnB3Ee2VJ9HmyiCPtw" type="_e5-a8HB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>super(lName, fName, userSin, birthY, birthM, birthD, savAccBal, cheqAccBal, credCardBal);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-B0gHB3Ee2VJ9HmyiCPtw" name="issueCreditCard" specification="_e6A3MHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-B0gXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0gnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0g3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+		int index = -1;&#xD;
+&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check first if they are old enough to own a credit card&#xD;
+		if(2022-super.getBirthYear()&lt;=18) {&#xD;
+			System.out.println(&quot;You cannot own a credit card. Credit cards are available only to customers over 18.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they already have a credit card&#xD;
+		else if (customer.get(8).equals(&quot;none&quot;)) { // Customer doesn't have existing credit card&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches the input&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				for (int i =0;i&lt;allAccounts.size();i++) {&#xD;
+					if (i == index+8) {&#xD;
+						allAccounts.set(i, &quot;0&quot;);&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+&#xD;
+				// In text file, update 'none' to 0.&#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+				}&#xD;
+				output.close();&#xD;
+&#xD;
+				activity = &quot;Credit card issued&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(&quot;A CREDIT CARD has been issued for &quot; + super.getName());&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		else {&#xD;
+			System.out.println(&quot;Credit card already issued.&quot;);&#xD;
+&#xD;
+&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-B0hHB3Ee2VJ9HmyiCPtw" name="processPurchase" specification="_e6BeQHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-B0hXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0hnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0h3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a credit card&#xD;
+		if (customer.get(8).equals(&quot;none&quot;)) { // If customer doesn't have card&#xD;
+			System.out.println(&quot;Credit card has not been issued.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else { // If customer DOES have account &#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to withdraw&#xD;
+				try {&#xD;
+					double purchaseTotal;&#xD;
+					System.out.print(&quot;Purchace total: $&quot;);&#xD;
+&#xD;
+					purchaseTotal = scan.nextDouble();&#xD;
+&#xD;
+					while(purchaseTotal&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						purchaseTotal = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+&#xD;
+					// Calculate new value to store as credit card balance after withdrawal&#xD;
+					double newCreditValue = Double.parseDouble(allAccounts.get(index+8)) - purchaseTotal;&#xD;
+&#xD;
+					// Update the arrayList with new credit card balance&#xD;
+					allAccounts.set(index+8, Double.toString(newCreditValue));&#xD;
+&#xD;
+					// In text file, update credit card balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + purchaseTotal + &quot; used from CREDIT CARD. New CREDIT CARD BALANCE: $&quot; + allAccounts.get(index+8);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + purchaseTotal + &quot; HAS BEEN USED FROM &quot; + super.getName() + &quot;'S CREDIT CARD&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-B0iHB3Ee2VJ9HmyiCPtw" name="processPayment" specification="_e6BeRHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-B0iXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0inB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0i3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+		double newSavBal;&#xD;
+		double newCheqBal;&#xD;
+&#xD;
+&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Make an array to store all text file contents&#xD;
+		ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+		allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+		for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+			if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+				index = i; // Save index if full name matches&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		// Check if credit card is already payed for&#xD;
+		if (customer.get(8).equals(&quot;none&quot;)) { // owes nothing&#xD;
+			System.out.println(&quot;Credit does not exist.&quot;);&#xD;
+		}&#xD;
+		else if (Double.parseDouble(customer.get(8)) == 0) { // owes nothing&#xD;
+			System.out.println(&quot;Credit card already payed for.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			System.out.println(&quot;Would you like to pay from SAVINGS or CHEQUING account?: &quot;);&#xD;
+			System.out.println(&quot;\n1.SAVINGS \n2.CHEQUING&quot;);&#xD;
+			try {&#xD;
+				int choose = scan.nextInt();&#xD;
+				if (choose==1) {&#xD;
+					if(customer.get(6).equals(&quot;0&quot;)) {&#xD;
+						System.out.println(&quot;Balance in SAVINGS ACCOUNT is $0.00. Customer has insufficient funds.&quot;);&#xD;
+					}&#xD;
+					else if(Double.parseDouble(customer.get(6))&lt;Math.abs(Double.parseDouble(customer.get(8))))  {&#xD;
+						System.out.println(&quot;Customer has insufficient funds to process payment.&quot;);&#xD;
+					}&#xD;
+					else if(customer.get(6).equals(&quot;none&quot;)) {&#xD;
+						System.out.println(&quot;No savings account exists.&quot;);&#xD;
+					}&#xD;
+					else {&#xD;
+						// process payment&#xD;
+						newSavBal = Double.parseDouble(customer.get(6)) - (Math.abs(Double.parseDouble(customer.get(8))));&#xD;
+&#xD;
+						// Update the arrayList with new savings balance and new credit balance (0)&#xD;
+						allAccounts.set(index+6, Double.toString(newSavBal));&#xD;
+						allAccounts.set(index+8, &quot;0&quot;);&#xD;
+&#xD;
+						// In text file, update credit card balance&#xD;
+						try {&#xD;
+							output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+							for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+								output.write(allAccounts.get(i));&#xD;
+								output.newLine();&#xD;
+&#xD;
+							}&#xD;
+							output.close();&#xD;
+						}&#xD;
+						catch (IOException e) {&#xD;
+							System.out.println(&quot;Cannot write into file.&quot;);&#xD;
+						}&#xD;
+						activity = &quot;$&quot; + Math.abs(Double.parseDouble(customer.get(8))) + &quot; used from SAVINGS ACCOUNT to pay off CREDIT CARD. New SAVINGS ACCOUNT BALANCE: $&quot; + allAccounts.get(index+6);&#xD;
+						accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+						System.out.println(&quot;$&quot; +  Math.abs(Double.parseDouble(customer.get(8))) + &quot; HAS BEEN USED FROM &quot; + super.getName() + &quot;'S SAVING ACCOUNT to pay off credit card.&quot;);&#xD;
+&#xD;
+					}&#xD;
+&#xD;
+				}&#xD;
+				else if (choose==2) {&#xD;
+					if(customer.get(7).equals(&quot;0&quot;)) {&#xD;
+						System.out.println(&quot;Balance in CHEQUING ACCOUNT is $0.00. Customer has insufficient funds.&quot;);&#xD;
+					}&#xD;
+					else if(Double.parseDouble(customer.get(6))&lt;Math.abs(Double.parseDouble(customer.get(8))))  {&#xD;
+						System.out.println(&quot;Customer has insufficient funds to process payment.&quot;);&#xD;
+					}&#xD;
+					else if(customer.get(7).equals(&quot;none&quot;)) {&#xD;
+						System.out.println(&quot;No chequing account exists.&quot;);&#xD;
+					}&#xD;
+					else {&#xD;
+						// process payment&#xD;
+						newCheqBal = Double.parseDouble(customer.get(7)) - (Math.abs(Double.parseDouble(customer.get(8))));&#xD;
+&#xD;
+						// Update the arrayList with new savings balance and new credit balance (0)&#xD;
+						allAccounts.set(index+7, Double.toString(newCheqBal));&#xD;
+						allAccounts.set(index+8, &quot;0&quot;);&#xD;
+&#xD;
+						// In text file, update credit card balance&#xD;
+						try {&#xD;
+							output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+							for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+								output.write(allAccounts.get(i));&#xD;
+								output.newLine();&#xD;
+&#xD;
+							}&#xD;
+							output.close();&#xD;
+						}&#xD;
+						catch (IOException e) {&#xD;
+							System.out.println(&quot;Cannot write into file.&quot;);&#xD;
+						}&#xD;
+						activity = &quot;$&quot; + Math.abs(Double.parseDouble(customer.get(8))) + &quot; used from CHEQUING ACCOUNT to pay off CREDIT CARD. New CHEQUING ACCOUNT BALANCE: $&quot; + allAccounts.get(index+7);&#xD;
+						accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+						System.out.println(&quot;$&quot; + Math.abs(Double.parseDouble(customer.get(8)))  + &quot; HAS BEEN USED FROM &quot; + super.getName() + &quot;'S CHEQUING ACCOUNT to pay off credit card.&quot;);&#xD;
+&#xD;
+					}&#xD;
+&#xD;
+				}&#xD;
+				else {&#xD;
+					System.out.println(&quot;Not an option. Returning to SUBMENU...&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+			catch (InputMismatchException e) {&#xD;
+				System.out.println(&quot;Invalid entry.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-B0jHB3Ee2VJ9HmyiCPtw" name="cancel" specification="_e6CFUXB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-B0jXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0jnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-B0j3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a credit card&#xD;
+		if (customer.get(8).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist.&quot;);&#xD;
+		}&#xD;
+		else if(Double.parseDouble(customer.get(8))&lt;0) { // card with negative balance&#xD;
+			System.out.println(&quot;You cannot cancel a card that hasn't been payed off yet.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Update the arrayList with new chequing deletion&#xD;
+				allAccounts.set(index+8, &quot;none&quot;);&#xD;
+&#xD;
+&#xD;
+				// In text file, update savings balance&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+&#xD;
+				}&#xD;
+&#xD;
+				output.close();&#xD;
+&#xD;
+				activity = &quot;CREDIT CARD CANCELLED&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(super.getName() + &quot;'S CREDIT CARD CANCELLED.&quot;);&#xD;
+			}&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+		}		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e5_CAHB3Ee2VJ9HmyiCPtw" name="CreditCard" method="_e-BNfHB3Ee2VJ9HmyiCPtw">
+        <eAnnotations xmi:id="_e5_pGXB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_e5_pGnB3Ee2VJ9HmyiCPtw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_e5_pEHB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pEXB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pEnB3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pE3B3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pFHB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pFXB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pFnB3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pF3B3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pGHB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e5_pG3B3Ee2VJ9HmyiCPtw" type="_e5-a8HB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6A3MHB3Ee2VJ9HmyiCPtw" name="issueCreditCard" method="_e-B0gHB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF8HB3Ee2VJ9HmyiCPtw">
+          <body>ISSUE CREDIT CARED BASED ON NAME&#xD;
+	 * @param l&#xD;
+	 * @param f</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6A3MXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6A3MnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6A3M3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6BeQHB3Ee2VJ9HmyiCPtw" name="processPurchase" method="_e-B0hHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6BeQXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6BeQnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6BeQ3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6BeRHB3Ee2VJ9HmyiCPtw" name="processPayment" method="_e-B0iHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6BeRXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6BeRnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6CFUHB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6CFUXB3Ee2VJ9HmyiCPtw" name="cancel" method="_e-B0jHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6CFUnB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6CFU3B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6CFVHB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e6DTcHB3Ee2VJ9HmyiCPtw" name="Customer">
+      <ownedAttribute xmi:id="_e9trcXB3Ee2VJ9HmyiCPtw" name="lastName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9trc3B3Ee2VJ9HmyiCPtw" name="firstName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9uSgXB3Ee2VJ9HmyiCPtw" name="sin" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9uSg3B3Ee2VJ9HmyiCPtw" name="birthYear" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9u5kXB3Ee2VJ9HmyiCPtw" name="birthMonth" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9u5k3B3Ee2VJ9HmyiCPtw" name="birthDay" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9u5lXB3Ee2VJ9HmyiCPtw" name="savingAccountBalance" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9vgoXB3Ee2VJ9HmyiCPtw" name="chequingAccountBalance" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9vgo3B3Ee2VJ9HmyiCPtw" name="creditCardBalance" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9vgpXB3Ee2VJ9HmyiCPtw" name="found" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9wHsHB3Ee2VJ9HmyiCPtw" value="false"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9wHsnB3Ee2VJ9HmyiCPtw" name="buffer" visibility="package" isStatic="true" type="_e9V4AHB3Ee2VJ9HmyiCPtw" association="_e-NatHB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9wuwXB3Ee2VJ9HmyiCPtw" name="output" visibility="package" isStatic="true" type="_e9Lf8HB3Ee2VJ9HmyiCPtw" association="_e-Oo0XB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9wuw3B3Ee2VJ9HmyiCPtw" name="line" visibility="private" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-CbkHB3Ee2VJ9HmyiCPtw" name="Customer" specification="_e6FIoHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-CbkXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbknB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Cbk3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CblHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CblXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CblnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Cbl3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbmHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbmXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbmnB3Ee2VJ9HmyiCPtw" type="_e6DTcHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>lastName = lName;&#xD;
+		firstName = fName;&#xD;
+		sin = userSin;&#xD;
+		birthYear = birthY;&#xD;
+		birthMonth = birthM;&#xD;
+		birthDay = birthD;&#xD;
+		savingAccountBalance = savAccBal;&#xD;
+		chequingAccountBalance = cheqAccBal;&#xD;
+		creditCardBalance = credCardBal;&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-Cbm3B3Ee2VJ9HmyiCPtw" name="addAccount" specification="_e6GWwHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-CbnHB3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbnXB3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbnnB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Cbn3B3Ee2VJ9HmyiCPtw" name="birthYear">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CboHB3Ee2VJ9HmyiCPtw" name="birthMonth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CboXB3Ee2VJ9HmyiCPtw" name="birthDay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbonB3Ee2VJ9HmyiCPtw" name="savingAccountBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Cbo3B3Ee2VJ9HmyiCPtw" name="chequingAccountBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbpHB3Ee2VJ9HmyiCPtw" name="creditCardBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>boolean exists = false;&#xD;
+&#xD;
+		try {&#xD;
+			// Verify that sin doesn't already exist&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				if (line.equals(String.valueOf(sin))) {&#xD;
+					exists = true;&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			if (exists){&#xD;
+				System.out.println(&quot;\nAn account with the same SIN exists already.&quot;);&#xD;
+			}&#xD;
+&#xD;
+			else {&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;, true)); &#xD;
+				output.write(lastName.toUpperCase());									 			 &#xD;
+				output.newLine();&#xD;
+				output.write(firstName.toUpperCase());									 			 &#xD;
+				output.newLine();&#xD;
+				output.write(Integer.toString(sin));									 			&#xD;
+				output.newLine();&#xD;
+				output.write(Integer.toString(birthYear));									 		&#xD;
+				output.newLine();&#xD;
+				output.write(Integer.toString(birthMonth));									 		&#xD;
+				output.newLine();&#xD;
+				output.write(Integer.toString(birthDay));									 		&#xD;
+				output.newLine();&#xD;
+&#xD;
+&#xD;
+				// Default savings, chequing, and credit balance is zero (none/no account)&#xD;
+				output.write(&quot;none&quot;);									 		&#xD;
+				output.newLine();&#xD;
+				output.write(&quot;none&quot;);									 		&#xD;
+				output.newLine();&#xD;
+				output.write(&quot;none&quot;);		&#xD;
+				output.newLine();&#xD;
+				output.newLine(); // line break &#xD;
+				output.close();&#xD;
+				&#xD;
+				System.out.println(&quot;\n       + ACCOUNT SUCESSFULLY ADDED! + \n&quot;);&#xD;
+&#xD;
+			}&#xD;
+		}&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;Issue opening file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-CbpXB3Ee2VJ9HmyiCPtw" name="deleteWithName" specification="_e6G903B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-CbpnB3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Cbp3B3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = 0;&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			ArrayList&lt;String> list = new ArrayList&lt;String>();&#xD;
+&#xD;
+			// Put all contents of text file into one array list&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+			for(int i=0; i&lt;list.size();i++) {&#xD;
+				if (list.get(i).equalsIgnoreCase(lastName) &amp;&amp; list.get(i+1).equalsIgnoreCase(firstName)) {&#xD;
+					index = i; // Save index if full name matches the input&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			// Remove entire account in one go&#xD;
+			for (int i = index+9; i>=index;i--) {&#xD;
+				list.remove(i);&#xD;
+			}&#xD;
+&#xD;
+			// Overwrite the text file with modified array list&#xD;
+			output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+			for (int i = 0; i&lt;list.size();i++) {&#xD;
+				output.write(list.get(i));&#xD;
+				output.newLine();&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+			output.close();&#xD;
+&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-CbqHB3Ee2VJ9HmyiCPtw" name="deleteWithSin" specification="_e6Hk4HB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-CbqXB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			// Put all contents of text file into one array list&#xD;
+			ArrayList&lt;String> list = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+			}&#xD;
+&#xD;
+			int index = list.indexOf(Integer.toString(sin));&#xD;
+&#xD;
+			// Remove year, birth month, birth day, saving, chequing, credit + extra line break&#xD;
+			for (int i = index+7; i>index;i--) {&#xD;
+				list.remove(i);&#xD;
+			}&#xD;
+&#xD;
+			// Remove sin, first name, and last name&#xD;
+			for (int i = index; i>index-3;i--) {&#xD;
+				list.remove(i);&#xD;
+			}&#xD;
+&#xD;
+			// Overwrite text file&#xD;
+			output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+			for (int i = 0; i&lt;list.size();i++) {&#xD;
+				output.write(list.get(i));&#xD;
+				output.newLine();&#xD;
+			}&#xD;
+			output.close();&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		} &#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-CbqnB3Ee2VJ9HmyiCPtw" name="findWithName" specification="_e6Hk4nB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-Cbq3B3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbrHB3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-CbrXB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			ArrayList &lt;String> list = new ArrayList&lt;String>();&#xD;
+&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+			}&#xD;
+			for(int i=0; i&lt;list.size();i++) {&#xD;
+				if (list.get(i).equalsIgnoreCase(lastName) &amp;&amp; list.get(i+1).equalsIgnoreCase(firstName)) {&#xD;
+					found = true;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);} &#xD;
+		return found;&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCoHB3Ee2VJ9HmyiCPtw" name="findWithSin" specification="_e6IL8nB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DCoXB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DConB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+&#xD;
+			ArrayList&lt;String> list = new ArrayList&lt;String>();&#xD;
+&#xD;
+&#xD;
+			// Put all contents of text file into one array list&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+			}&#xD;
+&#xD;
+			int index = list.indexOf(Integer.toString(sin));&#xD;
+&#xD;
+			if (index!=-1)&#xD;
+				found = true;&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+		return found; &#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCo3B3Ee2VJ9HmyiCPtw" name="sortByLastName" specification="_e6IL9XB3Ee2VJ9HmyiCPtw">
+        <language>java</language>
+        <body>int i, j;&#xD;
+		ArrayList&lt;String> temp;&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}&#xD;
+&#xD;
+			// Put all contents of first arrayList into an arrayList of arrayLists&#xD;
+			int customers = textFileContents.size()/10;&#xD;
+			ArrayList&lt;ArrayList&lt;String>> arraytOfAllArrays = new ArrayList&lt;ArrayList&lt;String>>();&#xD;
+			int m = 0; // Helps to keep spot in textFileCOntents arrayList&#xD;
+			for (i = 0; i&lt;customers;i++) {&#xD;
+				arraytOfAllArrays.add(new ArrayList&lt;String>()); //Add new arrayList for every new customer&#xD;
+				for (j=0;j&lt;10;j++) {&#xD;
+					arraytOfAllArrays.get(i).add(textFileContents.get(j+m));}&#xD;
+				m+=10; // Makes sure to add information from different account each time&#xD;
+			}&#xD;
+&#xD;
+			// Bubble sort&#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size()-1;i++) {&#xD;
+				for (j = 0; j&lt;arraytOfAllArrays.size()-1-i;j++) {&#xD;
+&#xD;
+					// Swaps based on last name&#xD;
+					if (arraytOfAllArrays.get(j).get(0).compareToIgnoreCase(arraytOfAllArrays.get(j+1).get(0))>0) {&#xD;
+						//Swap&#xD;
+						temp = arraytOfAllArrays.get(j);&#xD;
+						arraytOfAllArrays.set(j, arraytOfAllArrays.get(j+1));&#xD;
+						arraytOfAllArrays.set(j+1, temp);&#xD;
+					}&#xD;
+					// If multiple people have the same last name, it will sort based on the first name&#xD;
+					else if (arraytOfAllArrays.get(j).get(0).compareToIgnoreCase(arraytOfAllArrays.get(j+1).get(0))==0&#xD;
+							&amp;&amp; arraytOfAllArrays.get(j).get(1).compareToIgnoreCase(arraytOfAllArrays.get(j+1).get(1))>0) {&#xD;
+						//Swap&#xD;
+						temp = arraytOfAllArrays.get(j);&#xD;
+						arraytOfAllArrays.set(j, arraytOfAllArrays.get(j+1));&#xD;
+						arraytOfAllArrays.set(j+1, temp);&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+			// Overwrite the text file&#xD;
+			output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size();i++) {&#xD;
+				for(j = 0 ;j&lt;10;j++) {&#xD;
+					output.write(arraytOfAllArrays.get(i).get(j));&#xD;
+					output.newLine();&#xD;
+				}&#xD;
+			}&#xD;
+			output.close();&#xD;
+		}&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCpHB3Ee2VJ9HmyiCPtw" name="sortByFirstName" specification="_e6IzAHB3Ee2VJ9HmyiCPtw">
+        <language>java</language>
+        <body>int i, j;&#xD;
+		ArrayList&lt;String> temp;&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+			ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}&#xD;
+&#xD;
+			// Put all contents of first arrayList into an arrayList of arrayLists&#xD;
+			int customers = textFileContents.size()/10;&#xD;
+			ArrayList&lt;ArrayList&lt;String>> arraytOfAllArrays = new ArrayList&lt;ArrayList&lt;String>>();&#xD;
+			int m = 0; // Helps to keep spot in textFileCOntents arrayList&#xD;
+			for (i = 0; i&lt;customers;i++) {&#xD;
+				arraytOfAllArrays.add(new ArrayList&lt;String>()); //Add new arrayList for every new customer&#xD;
+				for (j=0;j&lt;10;j++) {&#xD;
+					arraytOfAllArrays.get(i).add(textFileContents.get(j+m));}&#xD;
+				m+=10; // Makes sure to add information from different account each time&#xD;
+			}&#xD;
+&#xD;
+			// Bubble sort&#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size()-1;i++) {&#xD;
+				for (j = 0; j&lt;arraytOfAllArrays.size()-1-i;j++) {&#xD;
+&#xD;
+					// Swaps based on first name&#xD;
+					if (arraytOfAllArrays.get(j).get(1).compareToIgnoreCase(arraytOfAllArrays.get(j+1).get(1))>0) {&#xD;
+						//Swap&#xD;
+						temp = arraytOfAllArrays.get(j);&#xD;
+						arraytOfAllArrays.set(j, arraytOfAllArrays.get(j+1));&#xD;
+						arraytOfAllArrays.set(j+1, temp);&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			// Overwrite the text file&#xD;
+			output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size();i++) {&#xD;
+				for(j = 0 ;j&lt;10;j++) {&#xD;
+					output.write(arraytOfAllArrays.get(i).get(j));&#xD;
+					output.newLine();&#xD;
+				}&#xD;
+			}&#xD;
+			output.close();&#xD;
+		}&#xD;
+&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCpXB3Ee2VJ9HmyiCPtw" name="sortBySin" specification="_e6IzAXB3Ee2VJ9HmyiCPtw">
+        <language>java</language>
+        <body>int i, j;&#xD;
+		ArrayList&lt;String> temp;&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			ArrayList&lt;String> textFileContents = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				textFileContents.add(line);&#xD;
+			}&#xD;
+&#xD;
+			// Put all contents of first arrayList into an arrayList of arrayLists&#xD;
+			int customers = textFileContents.size()/10;&#xD;
+			ArrayList&lt;ArrayList&lt;String>> arraytOfAllArrays = new ArrayList&lt;ArrayList&lt;String>>();&#xD;
+			int m = 0; // Helps to keep spot in textFileCOntents arrayList&#xD;
+			for (i = 0; i&lt;customers;i++) {&#xD;
+				arraytOfAllArrays.add(new ArrayList&lt;String>()); //Add new arrayList for every new customer&#xD;
+				for (j=0;j&lt;10;j++) {&#xD;
+					arraytOfAllArrays.get(i).add(textFileContents.get(j+m));}&#xD;
+				m+=10; // Makes sure to add information from different account each time&#xD;
+			}&#xD;
+&#xD;
+			// Bubble sort&#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size()-1;i++) {&#xD;
+				for (j = 0; j&lt;arraytOfAllArrays.size()-1-i;j++) {&#xD;
+&#xD;
+					// Swaps based on SIN&#xD;
+					if (arraytOfAllArrays.get(j).get(2).compareToIgnoreCase(arraytOfAllArrays.get(j+1).get(2))>0) {&#xD;
+						//Swap&#xD;
+						temp = arraytOfAllArrays.get(j);&#xD;
+						arraytOfAllArrays.set(j, arraytOfAllArrays.get(j+1));&#xD;
+						arraytOfAllArrays.set(j+1, temp);&#xD;
+					}&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			// Overwrite the text file&#xD;
+			output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+			for (i = 0; i&lt;arraytOfAllArrays.size();i++) {&#xD;
+				for(j = 0 ;j&lt;10;j++) {&#xD;
+					output.write(arraytOfAllArrays.get(i).get(j));&#xD;
+					output.newLine();&#xD;
+				}&#xD;
+			}&#xD;
+			output.close();&#xD;
+		}&#xD;
+&#xD;
+		catch (IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCpnB3Ee2VJ9HmyiCPtw" name="displayCustomerSummary" specification="_e6IzAnB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DCp3B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DCqHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DCqXB3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			// Put all contents of text file into one array list&#xD;
+			ArrayList&lt;String> list = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+			}&#xD;
+&#xD;
+			int indexOfSin = list.indexOf(Integer.toString(s));&#xD;
+			int indexOfCustomerStart = indexOfSin-2;&#xD;
+&#xD;
+			// Check if credentials exist &#xD;
+			if (indexOfSin != -1 &amp;&amp; (list.indexOf(f.toUpperCase())!=-1) &amp;&amp; (list.indexOf(l.toUpperCase())!=-1)) {&#xD;
+				if (list.get(indexOfSin-1).equalsIgnoreCase(f)&amp;&amp;list.get(indexOfSin-2).equalsIgnoreCase(l)) {&#xD;
+&#xD;
+					System.out.println(&quot;\nCUSTOMER SUMMARY FOR: &quot; + f.toUpperCase() + &quot; &quot; + l.toUpperCase());&#xD;
+					System.out.println(&quot;--------&quot;);&#xD;
+&#xD;
+					System.out.println(&quot;LAST NAME: &quot; + list.get(indexOfCustomerStart+0));&#xD;
+					System.out.println(&quot;FIRST NAME: &quot; + list.get(indexOfCustomerStart+1));&#xD;
+					System.out.println(&quot;SIN: &quot; + list.get(indexOfCustomerStart+2));&#xD;
+					System.out.println(&quot;BIRTHDAY (YYYY/MM/DD): &quot; + list.get(indexOfCustomerStart+3) + &quot;/&quot; + list.get(indexOfCustomerStart+4) + &quot;/&quot; + list.get(indexOfCustomerStart+5));&#xD;
+					System.out.println(&quot;SAVING ACCOUNT BALANCE: &quot; + list.get(indexOfCustomerStart+6));&#xD;
+					System.out.println(&quot;CHEQUING ACCOUNT BALANCE: &quot; + list.get(indexOfCustomerStart+7));&#xD;
+					System.out.println(&quot;CREDIT CARD BALANCE: &quot; + list.get(indexOfCustomerStart+8));&#xD;
+&#xD;
+&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			else {&#xD;
+				System.out.println(&quot;Account could not be found.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DCqnB3Ee2VJ9HmyiCPtw" name="displayAll" specification="_e6JaEHB3Ee2VJ9HmyiCPtw">
+        <language>java</language>
+        <body>System.out.println(&quot;ALL CUSTOMERS REGISTERED: &quot;);&#xD;
+&#xD;
+		try {&#xD;
+			buffer = new BufferedReader(new FileReader(&quot;allUsers.txt&quot;));&#xD;
+&#xD;
+			// Put all contents of text file into one array list&#xD;
+			ArrayList&lt;String> list = new ArrayList&lt;String>();&#xD;
+			while ((line = buffer.readLine())!=null){&#xD;
+				list.add(line);&#xD;
+&#xD;
+			}&#xD;
+&#xD;
+			int m=0;&#xD;
+			for (int i=0;i&lt;list.size()/10;i++) {&#xD;
+				System.out.println(&quot;NAME: &quot; + list.get(m+1) + &quot; &quot; + list.get(m) + &quot;, SIN: &quot; + list.get(m+2));&#xD;
+				m+=10;&#xD;
+			}&#xD;
+&#xD;
+		}&#xD;
+		catch(IOException e) {&#xD;
+			System.out.println(&quot;Cannot read file.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e6FIoHB3Ee2VJ9HmyiCPtw" name="Customer" method="_e-CbkHB3Ee2VJ9HmyiCPtw">
+        <eAnnotations xmi:id="_e6FvtnB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_e6Fvt3B3Ee2VJ9HmyiCPtw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_e6FIoXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FIonB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FIo3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvsHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvsXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvsnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6Fvs3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvtHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvtXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6FvuHB3Ee2VJ9HmyiCPtw" type="_e6DTcHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6GWwHB3Ee2VJ9HmyiCPtw" name="addAccount" isStatic="true" method="_e-Cbm3B3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF8XB3Ee2VJ9HmyiCPtw">
+          <body>*******************************&#xD;
+	 * ADD AN ACCOUNT TO THE DATABASE&#xD;
+	 * &#xD;
+	 * @param lastName&#xD;
+	 * @param firstName&#xD;
+	 * @param sin&#xD;
+	 * @param birthYear&#xD;
+	 * @param birthMonth&#xD;
+	 * @param birthDay&#xD;
+	 * @param savingAccountBalance&#xD;
+	 * @param chequingAccountBalance&#xD;
+	 * @param creditCardBalance&#xD;
+	 ********************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6GWwXB3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6GWwnB3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6GWw3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6GWxHB3Ee2VJ9HmyiCPtw" name="birthYear">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6GWxXB3Ee2VJ9HmyiCPtw" name="birthMonth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6GWxnB3Ee2VJ9HmyiCPtw" name="birthDay">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6G90HB3Ee2VJ9HmyiCPtw" name="savingAccountBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6G90XB3Ee2VJ9HmyiCPtw" name="chequingAccountBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6G90nB3Ee2VJ9HmyiCPtw" name="creditCardBalance">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6G903B3Ee2VJ9HmyiCPtw" name="deleteWithName" isStatic="true" method="_e-CbpXB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF8nB3Ee2VJ9HmyiCPtw">
+          <body>********************************       &#xD;
+	 * DELETE ACCOUNT WITH NAME&#xD;
+	 * &#xD;
+	 *  @param lastName&#xD;
+	 *  @param firstName&#xD;
+	 *     &#xD;
+	 * *********************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6G91HB3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6G91XB3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6Hk4HB3Ee2VJ9HmyiCPtw" name="deleteWithSin" isStatic="true" method="_e-CbqHB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF83B3Ee2VJ9HmyiCPtw">
+          <body>********************************       &#xD;
+	 * DELETE ACCOUNT WITH SIN&#xD;
+	 * &#xD;
+	 *  @param sin&#xD;
+	 *     &#xD;
+	 * *********************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6Hk4XB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6Hk4nB3Ee2VJ9HmyiCPtw" name="findWithName" isStatic="true" method="_e-CbqnB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF9HB3Ee2VJ9HmyiCPtw">
+          <body>*************************************************************************************************************&#xD;
+	 * FIND AN ACCOUNT WITH LAST NAME, FIRST NAME&#xD;
+	 * &#xD;
+	 * @TODO: ask if she wants the input in the format: &quot;last name, first name&quot; or if we can prompt them separately&#xD;
+	 * &#xD;
+	 * @param lastName&#xD;
+	 * @param firstName&#xD;
+	 * @return 'found' as true if account exists within the database&#xD;
+	 ***************************************************************************************************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6Hk43B3Ee2VJ9HmyiCPtw" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6IL8HB3Ee2VJ9HmyiCPtw" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6IL8XB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6IL8nB3Ee2VJ9HmyiCPtw" name="findWithSin" isStatic="true" method="_e-DCoHB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF9XB3Ee2VJ9HmyiCPtw">
+          <body>**************************************************************&#xD;
+	 * FIND AN ACCOUNT WITH SIN	&#xD;
+	 * &#xD;
+	 * @param sin&#xD;
+	 * @return 'found' as true if account exists within the database&#xD;
+	 * &#xD;
+	 ***************************************************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6IL83B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6IL9HB3Ee2VJ9HmyiCPtw" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6IL9XB3Ee2VJ9HmyiCPtw" name="sortByLastName" isStatic="true" method="_e-DCo3B3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF9nB3Ee2VJ9HmyiCPtw">
+          <body>******************************************&#xD;
+	 * SORT THE ACCOUNTS BASED ON LAST NAME&#xD;
+	 * @note Function will begin to sort by first name if the last names are the same.&#xD;
+	 * &#xD;
+	 *******************************************</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6IzAHB3Ee2VJ9HmyiCPtw" name="sortByFirstName" isStatic="true" method="_e-DCpHB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF93B3Ee2VJ9HmyiCPtw">
+          <body>******************************************&#xD;
+	 * SORT THE ACCOUNTS BASED ON FIRST NAME&#xD;
+	 *******************************************</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6IzAXB3Ee2VJ9HmyiCPtw" name="sortBySin" isStatic="true" method="_e-DCpXB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF-HB3Ee2VJ9HmyiCPtw">
+          <body>******************************************&#xD;
+	 * SORT THE ACCOUNTS BASED ON SIN &#xD;
+	 *******************************************</body>
+        </ownedComment>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6IzAnB3Ee2VJ9HmyiCPtw" name="displayCustomerSummary" isStatic="true" method="_e-DCpnB3Ee2VJ9HmyiCPtw">
+        <ownedComment xmi:id="_e-GF-XB3Ee2VJ9HmyiCPtw">
+          <body>******************************************&#xD;
+	 * DISPLAY CUSTOMER SUMMARY&#xD;
+	 * @param firstName&#xD;
+	 * @param lastName&#xD;
+	 * @param sin&#xD;
+	 *******************************************</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_e6IzA3B3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6IzBHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6IzBXB3Ee2VJ9HmyiCPtw" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6JaEHB3Ee2VJ9HmyiCPtw" name="displayAll" isStatic="true" method="_e-DCqnB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e6L2UHB3Ee2VJ9HmyiCPtw" name="SavingAccount">
+      <generalization xmi:id="_e9RmkHB3Ee2VJ9HmyiCPtw" general="_e5Wv4HB3Ee2VJ9HmyiCPtw"/>
+      <ownedAttribute xmi:id="_e9x84HB3Ee2VJ9HmyiCPtw" name="activity" visibility="package" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_e9x84nB3Ee2VJ9HmyiCPtw" name="scan" visibility="package" isStatic="true" type="_e9QYcHB3Ee2VJ9HmyiCPtw" association="_e-PP4XB3Ee2VJ9HmyiCPtw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_e9x843B3Ee2VJ9HmyiCPtw" value="new Scanner (System.in)"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-DpsHB3Ee2VJ9HmyiCPtw" name="SavingAccount" specification="_e6NEcHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DpsXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpsnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Dps3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DptHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DptXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DptnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-Dpt3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpuHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpuXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpunB3Ee2VJ9HmyiCPtw" type="_e6L2UHB3Ee2VJ9HmyiCPtw" direction="return"/>
+        <language>java</language>
+        <body>super(lName, fName, userSin, birthY, birthM, birthD, savAccBal, cheqAccBal, credCardBal);&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-Dpu3B3Ee2VJ9HmyiCPtw" name="addAccount" specification="_e6OSkHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DpvHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpvXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpvnB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they already have a savings account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // customer doesn't have savings account&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				for (int i =0;i&lt;allAccounts.size();i++) {&#xD;
+					if (i == index+6) {&#xD;
+						allAccounts.set(i, &quot;0&quot;);&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+&#xD;
+				// In text file, update 'none' to 0.&#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+&#xD;
+				}&#xD;
+				output.close();&#xD;
+&#xD;
+				activity = &quot;Savings account opened&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(&quot;A SAVINGS ACCOUNT has been OPENED for &quot; + super.getName());&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+&#xD;
+		else {&#xD;
+			System.out.println(&quot;Savings account already exists.&quot;);&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-Dpv3B3Ee2VJ9HmyiCPtw" name="deposit" specification="_e6OSlHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DpwHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpwXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpwnB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a savings account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Savings account does not exist.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else { // If customer DOES have account&#xD;
+			try {&#xD;
+&#xD;
+				// Ask how much user would like to deposit&#xD;
+				try {&#xD;
+					double deposit;&#xD;
+					System.out.print(&quot;How much would you like to deposit: $&quot;);&#xD;
+					deposit = scan.nextDouble();&#xD;
+&#xD;
+					while(deposit&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						deposit = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+					allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+					for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+						if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+							index = i; // Save index if full name matches&#xD;
+						}&#xD;
+					}&#xD;
+&#xD;
+					double newSavingsValue = deposit + Double.parseDouble(allAccounts.get(index+6));&#xD;
+&#xD;
+&#xD;
+					allAccounts.set(index+6, Double.toString(newSavingsValue));&#xD;
+&#xD;
+&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+&#xD;
+					// In text file, update savings balance&#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + deposit + &quot; deposited into SAVINGS ACCOUNT. New SAVINGS BALANCE: $&quot; + allAccounts.get(index+6);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + deposit + &quot; HAS BEEN DEPOSITED INTO &quot; + super.getName() + &quot;'S SAVING ACCOUNT&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-Dpw3B3Ee2VJ9HmyiCPtw" name="withdraw" specification="_e6O5oHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DpxHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpxXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpxnB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a savings account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Savings account does not exist.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else if (customer.get(6).equals(&quot;0&quot;)) { // Customer cannot withdraw without any current balance&#xD;
+			System.out.println(&quot;No money exists in savings account to withdraw.&quot;);&#xD;
+		}&#xD;
+&#xD;
+		else { // If customer DOES have account and it's not empty&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to withdraw&#xD;
+				try {&#xD;
+					double withdraw;&#xD;
+					System.out.print(&quot;How much would you like to withdraw: $&quot;);&#xD;
+					withdraw = scan.nextDouble();&#xD;
+&#xD;
+					while(withdraw&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						withdraw = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					while (withdraw>Double.parseDouble(allAccounts.get(index+6))) {&#xD;
+						System.out.println(&quot;You cannot withdraw more than the current balance ($&quot; + Double.parseDouble(allAccounts.get(index+6)) + &quot;)&quot;);&#xD;
+						System.out.print(&quot;Re-enter a smaller value: &quot;);&#xD;
+						withdraw = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					// Calculate new value to store as savings balance after withdrawal&#xD;
+					double newSavingsValue = Double.parseDouble(allAccounts.get(index+6)) - withdraw;&#xD;
+					// Update the arrayList with new savings balance&#xD;
+					allAccounts.set(index+6, Double.toString(newSavingsValue));&#xD;
+&#xD;
+					// In text file, update savings balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + withdraw + &quot; withdrawn from SAVINGS ACCOUNT. New SAVINGS BALANCE: $&quot; + allAccounts.get(index+6);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + withdraw + &quot; HAS BEEN WITHDRAWN FROM &quot; + super.getName() + &quot;'S SAVING ACCOUNT&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}	&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-Dpx3B3Ee2VJ9HmyiCPtw" name="transfer" specification="_e6PgsHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-DpyHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpyXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-DpynB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a savings account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Savings account does not exist to transfer money from.&quot;);&#xD;
+		}&#xD;
+		// Check if they even have a chequing account&#xD;
+		if (customer.get(7).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Chequing account does not exist to transfer money into.&quot;);&#xD;
+		}&#xD;
+		else if (customer.get(6).equals(&quot;0&quot;)) { // If customer doesn't have money&#xD;
+			System.out.println(&quot;No money available to transfer.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			// transfer funds&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+				// Ask how much user would like to transfer&#xD;
+				try {&#xD;
+					double transfer;&#xD;
+					System.out.print(&quot;How much would you like to transfer: $&quot;);&#xD;
+					transfer = scan.nextDouble();&#xD;
+&#xD;
+					while(transfer&lt;0) {&#xD;
+						System.out.print(&quot;Value must be positive. Re-enter: $&quot;);&#xD;
+						transfer = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					while (transfer>Double.parseDouble(allAccounts.get(index+6))) {&#xD;
+						System.out.println(&quot;You cannot transfer more than the current balance ($&quot; + Double.parseDouble(allAccounts.get(index+6)) + &quot;)&quot;);&#xD;
+						System.out.print(&quot;Re-enter a smaller value: &quot;);&#xD;
+						transfer = scan.nextDouble();&#xD;
+					}&#xD;
+&#xD;
+					// Calculate new value to store as savings &amp; chequing balance after transfer&#xD;
+					double newSavingsValue = Double.parseDouble(allAccounts.get(index+6)) - transfer;&#xD;
+					double newChequingValue = Double.parseDouble(allAccounts.get(index+7)) + transfer;&#xD;
+					// Update the arrayList with new savings &amp; chequing balance&#xD;
+					allAccounts.set(index+6, Double.toString(newSavingsValue));&#xD;
+					allAccounts.set(index+7, Double.toString(newChequingValue));&#xD;
+&#xD;
+&#xD;
+					// In text file, update savings balance&#xD;
+					output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+					for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+						output.write(allAccounts.get(i));&#xD;
+						output.newLine();&#xD;
+&#xD;
+					}&#xD;
+					output.close();&#xD;
+&#xD;
+					activity = &quot;$&quot; + transfer + &quot; TRANSFERED from SAVINGS ACCOUNT to CHEQUING ACCOUNT. New SAVINGS BALANCE: $&quot; + allAccounts.get(index+6);&#xD;
+					accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+					System.out.println(&quot;$&quot; + transfer + &quot; HAS BEEN transfered FROM &quot; + super.getName() + &quot;'S SAVING ACCOUNT to CHEQUING ACCOUNT.&quot;);&#xD;
+				}&#xD;
+				catch (InputMismatchException e) {&#xD;
+					System.out.println(&quot;Invalid entry.&quot;);&#xD;
+				}&#xD;
+			}&#xD;
+&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_e-EQwHB3Ee2VJ9HmyiCPtw" name="cancel" specification="_e6PgtHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e-EQwXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-EQwnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e-EQw3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>int index = -1;&#xD;
+&#xD;
+		ArrayList&lt;String> customer = new ArrayList&lt;String>();&#xD;
+&#xD;
+		// Check if account was found by sin or name&#xD;
+		if (sin == 0) { // Found by names&#xD;
+			customer = super.getCustomerWithName(l, f);&#xD;
+		}&#xD;
+&#xD;
+		else { // Found by sin&#xD;
+			customer = super.getCustomerWithSin(sin);&#xD;
+		}&#xD;
+&#xD;
+		// Check if they even have a savings account&#xD;
+		if (customer.get(6).equals(&quot;none&quot;)) { // If customer doesn't have account&#xD;
+			System.out.println(&quot;Savings account does not exist.&quot;);&#xD;
+		}&#xD;
+		else {&#xD;
+			try {&#xD;
+&#xD;
+				ArrayList&lt;String> allAccounts = new ArrayList&lt;String>();&#xD;
+				allAccounts = super.getAllAccounts();&#xD;
+&#xD;
+				for(int i=0; i&lt;allAccounts.size();i++) {&#xD;
+					if (allAccounts.get(i).equalsIgnoreCase(customer.get(0)) &amp;&amp; allAccounts.get(i+1).equalsIgnoreCase(customer.get(1))) {&#xD;
+						index = i; // Save index if full name matches&#xD;
+					}&#xD;
+				}&#xD;
+&#xD;
+&#xD;
+				// Update the arrayList with new savings deletion&#xD;
+				allAccounts.set(index+6, &quot;none&quot;);&#xD;
+&#xD;
+&#xD;
+				// In text file, update savings balance&#xD;
+				output = new BufferedWriter(new FileWriter(&quot;allUsers.txt&quot;)); &#xD;
+				for (int i = 0; i&lt;allAccounts.size();i++) {&#xD;
+					output.write(allAccounts.get(i));&#xD;
+					output.newLine();&#xD;
+&#xD;
+				}&#xD;
+&#xD;
+				output.close();&#xD;
+&#xD;
+				activity = &quot;SAVINGS ACCOUNT CANCELLED&quot;;&#xD;
+				accountActivity(customer.get(0), customer.get(1), activity);&#xD;
+				System.out.println(super.getName() + &quot;'S SAVING ACCOUNT CANCELLED.&quot;);&#xD;
+			}&#xD;
+			catch (IOException e) {&#xD;
+				System.out.println(&quot;Issue writing in file.&quot;);&#xD;
+			}&#xD;
+&#xD;
+&#xD;
+		}&#xD;
+&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_e6NEcHB3Ee2VJ9HmyiCPtw" name="SavingAccount" method="_e-DpsHB3Ee2VJ9HmyiCPtw">
+        <eAnnotations xmi:id="_e6NrgHB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_e6NrgXB3Ee2VJ9HmyiCPtw" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_e6NEcXB3Ee2VJ9HmyiCPtw" name="lName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEcnB3Ee2VJ9HmyiCPtw" name="fName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEc3B3Ee2VJ9HmyiCPtw" name="userSin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEdHB3Ee2VJ9HmyiCPtw" name="birthY">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEdXB3Ee2VJ9HmyiCPtw" name="birthM">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEdnB3Ee2VJ9HmyiCPtw" name="birthD">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEd3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEeHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NEeXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6NrgnB3Ee2VJ9HmyiCPtw" type="_e6L2UHB3Ee2VJ9HmyiCPtw" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6OSkHB3Ee2VJ9HmyiCPtw" name="addAccount" method="_e-Dpu3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6OSkXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6OSknB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6OSk3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6OSlHB3Ee2VJ9HmyiCPtw" name="deposit" method="_e-Dpv3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6OSlXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6OSlnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6OSl3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6O5oHB3Ee2VJ9HmyiCPtw" name="withdraw" method="_e-Dpw3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6O5oXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6O5onB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6O5o3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6PgsHB3Ee2VJ9HmyiCPtw" name="transfer" method="_e-Dpx3B3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6PgsXB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6PgsnB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6Pgs3B3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_e6PgtHB3Ee2VJ9HmyiCPtw" name="cancel" method="_e-EQwHB3Ee2VJ9HmyiCPtw">
+        <ownedParameter xmi:id="_e6QHwHB3Ee2VJ9HmyiCPtw" name="l">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6QHwXB3Ee2VJ9HmyiCPtw" name="f">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_e6QHwnB3Ee2VJ9HmyiCPtw" name="sin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-KXYHB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-KXYXB3Ee2VJ9HmyiCPtw _e9m9wHB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-KXYXB3Ee2VJ9HmyiCPtw" name="" type="_e5Wv4HB3Ee2VJ9HmyiCPtw" association="_e-KXYHB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-K-cXB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-K-cnB3Ee2VJ9HmyiCPtw _e9m9wnB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-K-cnB3Ee2VJ9HmyiCPtw" name="" type="_e5Wv4HB3Ee2VJ9HmyiCPtw" association="_e-K-cXB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-LlgXB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-LlgnB3Ee2VJ9HmyiCPtw _e9nk0XB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-LlgnB3Ee2VJ9HmyiCPtw" name="" type="_e5Wv4HB3Ee2VJ9HmyiCPtw" association="_e-LlgXB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-MMkXB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-MMknB3Ee2VJ9HmyiCPtw _e9qBEHB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-MMknB3Ee2VJ9HmyiCPtw" name="" type="_e5vxcHB3Ee2VJ9HmyiCPtw" association="_e-MMkXB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-MzoXB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-MzonB3Ee2VJ9HmyiCPtw _e9rPNHB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-MzonB3Ee2VJ9HmyiCPtw" name="" type="_e51RAHB3Ee2VJ9HmyiCPtw" association="_e-MzoXB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-NasXB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-NasnB3Ee2VJ9HmyiCPtw _e9tEYXB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-NasnB3Ee2VJ9HmyiCPtw" name="" type="_e5-a8HB3Ee2VJ9HmyiCPtw" association="_e-NasXB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-NatHB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-NatXB3Ee2VJ9HmyiCPtw _e9wHsnB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-NatXB3Ee2VJ9HmyiCPtw" name="" type="_e6DTcHB3Ee2VJ9HmyiCPtw" association="_e-NatHB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-Oo0XB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-Oo0nB3Ee2VJ9HmyiCPtw _e9wuwXB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-Oo0nB3Ee2VJ9HmyiCPtw" name="" type="_e6DTcHB3Ee2VJ9HmyiCPtw" association="_e-Oo0XB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_e-PP4XB3Ee2VJ9HmyiCPtw" name="" memberEnd="_e-PP4nB3Ee2VJ9HmyiCPtw _e9x84nB3Ee2VJ9HmyiCPtw">
+      <ownedEnd xmi:id="_e-PP4nB3Ee2VJ9HmyiCPtw" name="" type="_e6L2UHB3Ee2VJ9HmyiCPtw" association="_e-PP4XB3Ee2VJ9HmyiCPtw"/>
+    </packagedElement>
+    <profileApplication xmi:id="_en3XQHB3Ee2VJ9HmyiCPtw">
+      <eAnnotations xmi:id="_en7BoHB3Ee2VJ9HmyiCPtw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_en-sAHB3Ee2VJ9HmyiCPtw" base_Package="_ecsCAHB3Ee2VJ9HmyiCPtw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_e5kyUHB3Ee2VJ9HmyiCPtw" genericsValue="String" base_Element="_e5i9IHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Generics xmi:id="_e5nOkHB3Ee2VJ9HmyiCPtw" genericsValue="String" base_Element="_e5mAcHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Generics xmi:id="_e5ocsHB3Ee2VJ9HmyiCPtw" genericsValue="String" base_Element="_e5nOkXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9H1kHB3Ee2VJ9HmyiCPtw" base_Element="_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9JDsHB3Ee2VJ9HmyiCPtw" base_Element="_e9IcoHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9MuEHB3Ee2VJ9HmyiCPtw" base_Element="_e9Lf8HB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9N8MHB3Ee2VJ9HmyiCPtw" base_Element="_e9MuEXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9OjQHB3Ee2VJ9HmyiCPtw" base_Element="_e9N8MXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9PxYHB3Ee2VJ9HmyiCPtw" base_Element="_e9PKUHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9Q_gHB3Ee2VJ9HmyiCPtw" base_Element="_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e9XGIHB3Ee2VJ9HmyiCPtw" base_Element="_e9V4AHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9gQEHB3Ee2VJ9HmyiCPtw" base_Element="_e9fpAHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9heMXB3Ee2VJ9HmyiCPtw" base_Element="_e9heMHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9iFQXB3Ee2VJ9HmyiCPtw" base_Element="_e9iFQHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9isUXB3Ee2VJ9HmyiCPtw" base_Element="_e9isUHB3Ee2VJ9HmyiCPtw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_e9j6cHB3Ee2VJ9HmyiCPtw" name="getBirthYear" isStatic="true" method="_e94DgHB3Ee2VJ9HmyiCPtw">
+      <ownedParameter xmi:id="_e9j6cXB3Ee2VJ9HmyiCPtw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9khgXB3Ee2VJ9HmyiCPtw" base_Element="_e9khgHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9lIkHB3Ee2VJ9HmyiCPtw" base_Element="_e9khgnB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9lIknB3Ee2VJ9HmyiCPtw" base_Element="_e9lIkXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9lvoHB3Ee2VJ9HmyiCPtw" base_Element="_e9lIk3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9lvonB3Ee2VJ9HmyiCPtw" base_Element="_e9lvoXB3Ee2VJ9HmyiCPtw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_e9lvo3B3Ee2VJ9HmyiCPtw" name="getCreditCardBalance" isStatic="true" method="_e988AHB3Ee2VJ9HmyiCPtw">
+      <ownedParameter xmi:id="_e9mWsHB3Ee2VJ9HmyiCPtw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9mWs3B3Ee2VJ9HmyiCPtw" base_Element="_e9mWsXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9m9wXB3Ee2VJ9HmyiCPtw" base_Element="_e9m9wHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9m9w3B3Ee2VJ9HmyiCPtw" base_Element="_e9m9wnB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9nk0HB3Ee2VJ9HmyiCPtw" base_Element="_e9m9xHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Generics xmi:id="_e9oy8HB3Ee2VJ9HmyiCPtw" genericsValue="ArrayList&lt;String>" base_Element="_e9nk0XB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9paAXB3Ee2VJ9HmyiCPtw" base_Element="_e9nk0XB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9qoIXB3Ee2VJ9HmyiCPtw" base_Element="_e9qBEHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9rPMHB3Ee2VJ9HmyiCPtw" base_Element="_e9qoInB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9rPM3B3Ee2VJ9HmyiCPtw" base_Element="_e9rPMXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9r2QHB3Ee2VJ9HmyiCPtw" base_Element="_e9rPNHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9sdUHB3Ee2VJ9HmyiCPtw" base_Element="_e9r2QXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9tEYHB3Ee2VJ9HmyiCPtw" base_Element="_e9sdUXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9tEY3B3Ee2VJ9HmyiCPtw" base_Element="_e9tEYXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9trcHB3Ee2VJ9HmyiCPtw" base_Element="_e9tEZHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9trcnB3Ee2VJ9HmyiCPtw" base_Element="_e9trcXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9uSgHB3Ee2VJ9HmyiCPtw" base_Element="_e9trc3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9uSgnB3Ee2VJ9HmyiCPtw" base_Element="_e9uSgXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9u5kHB3Ee2VJ9HmyiCPtw" base_Element="_e9uSg3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9u5knB3Ee2VJ9HmyiCPtw" base_Element="_e9u5kXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9u5lHB3Ee2VJ9HmyiCPtw" base_Element="_e9u5k3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9vgoHB3Ee2VJ9HmyiCPtw" base_Element="_e9u5lXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9vgonB3Ee2VJ9HmyiCPtw" base_Element="_e9vgoXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9vgpHB3Ee2VJ9HmyiCPtw" base_Element="_e9vgo3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9wHsXB3Ee2VJ9HmyiCPtw" base_Element="_e9vgpXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9wuwHB3Ee2VJ9HmyiCPtw" base_Element="_e9wHsnB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9wuwnB3Ee2VJ9HmyiCPtw" base_Element="_e9wuwXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9wuxHB3Ee2VJ9HmyiCPtw" base_Element="_e9wuw3B3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9x84XB3Ee2VJ9HmyiCPtw" base_Element="_e9x84HB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_e9x85HB3Ee2VJ9HmyiCPtw" base_Element="_e9x84nB3Ee2VJ9HmyiCPtw"/>
+  <uml:OpaqueBehavior xmi:id="_e94DgHB3Ee2VJ9HmyiCPtw" name="getBirthYear" specification="_e9j6cHB3Ee2VJ9HmyiCPtw">
+    <ownedParameter xmi:id="_e98U8HB3Ee2VJ9HmyiCPtw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return birthYear;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_e988AHB3Ee2VJ9HmyiCPtw" name="getCreditCardBalance" specification="_e9lvo3B3Ee2VJ9HmyiCPtw">
+    <ownedParameter xmi:id="_e988AXB3Ee2VJ9HmyiCPtw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return creditCardBalance;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_e-K-cHB3Ee2VJ9HmyiCPtw" base_Element="_e-KXYHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-LlgHB3Ee2VJ9HmyiCPtw" base_Element="_e-K-cXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-MMkHB3Ee2VJ9HmyiCPtw" base_Element="_e-LlgXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-MzoHB3Ee2VJ9HmyiCPtw" base_Element="_e-MMkXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-NasHB3Ee2VJ9HmyiCPtw" base_Element="_e-MzoXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-Nas3B3Ee2VJ9HmyiCPtw" base_Element="_e-NasXB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-Oo0HB3Ee2VJ9HmyiCPtw" base_Element="_e-NatHB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-PP4HB3Ee2VJ9HmyiCPtw" base_Element="_e-Oo0XB3Ee2VJ9HmyiCPtw"/>
+  <UMLLabProfile:Reference xmi:id="_e-PP43B3Ee2VJ9HmyiCPtw" base_Element="_e-PP4XB3Ee2VJ9HmyiCPtw"/>
+</xmi:XMI>

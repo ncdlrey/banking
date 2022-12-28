@@ -1,0 +1,1923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_eey60HB3Ee2VJ9HmyiCPtw">
+  <modelElement href="vpci-database-bank.uml#_ecsCAHB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gQN1IHB3Ee2VJ9HmyiCPtw" sourceAnchor="1557.0,183.0" targetAnchor="0.0,31.0" target="_3YN2AHB4Ee2VJ9HmyiCPtw" source="_gQOcMHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-MzoXB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_5OaioHB4Ee2VJ9HmyiCPtw" position="1581.0,23.0"/>
+    <stereotypes xmi:id="_gQN1IXB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-NasHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gQN1InB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_3fWYwHB4Ee2VJ9HmyiCPtw" position="-15.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gQN1I3B3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-MzonB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fVxtnB4Ee2VJ9HmyiCPtw" position="13.0,2.0"/>
+      <visibility xmi:id="_gQN1JHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQN1JXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gQN1JnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="scan" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9rPNHB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fWYwXB4Ee2VJ9HmyiCPtw" position="-67.0,-67.0"/>
+      <visibility xmi:id="_gQN1J3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gQN1KHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gREwwHB3Ee2VJ9HmyiCPtw" targetItem="_gRMF7nB3Ee2VJ9HmyiCPtw" sourceItem="_gREJsHB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRFX0XB3Ee2VJ9HmyiCPtw" targetItem="_gRMGDHB3Ee2VJ9HmyiCPtw" sourceItem="_gRFX0HB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRFX03B3Ee2VJ9HmyiCPtw" targetItem="_gRMGFXB3Ee2VJ9HmyiCPtw" sourceItem="_gRFX0nB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRF-4XB3Ee2VJ9HmyiCPtw" targetItem="_gRMGG3B3Ee2VJ9HmyiCPtw" sourceItem="_gRF-4HB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRF-43B3Ee2VJ9HmyiCPtw" targetItem="_gRMGJnB3Ee2VJ9HmyiCPtw" sourceItem="_gRF-4nB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRGl8HB3Ee2VJ9HmyiCPtw" targetItem="_gRMGLnB3Ee2VJ9HmyiCPtw" sourceItem="_gRF-5HB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRGl8nB3Ee2VJ9HmyiCPtw" targetItem="_gRMGMXB3Ee2VJ9HmyiCPtw" sourceItem="_gRGl8XB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRGl9HB3Ee2VJ9HmyiCPtw" targetItem="_gRMGNHB3Ee2VJ9HmyiCPtw" sourceItem="_gRGl83B3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gRHNAXB3Ee2VJ9HmyiCPtw" targetItem="_gRMGN3B3Ee2VJ9HmyiCPtw" sourceItem="_gRHNAHB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gRLecHB3Ee2VJ9HmyiCPtw" sourceAnchor="242.0,0.0" targetAnchor="74.0,65.0" target="_mKgM0HB4Ee2VJ9HmyiCPtw" source="_gRMFiXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-NatHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_qGzqUHB4Ee2VJ9HmyiCPtw" position="-766.0,810.0"/>
+    <stereotypes xmi:id="_gRLecXB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-Oo0HB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gRLecnB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_nxFJEHB4Ee2VJ9HmyiCPtw" position="-49.0,-13.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gRLec3B3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-NatXB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxEiBnB4Ee2VJ9HmyiCPtw" position="1.0,-47.0"/>
+      <visibility xmi:id="_gRLedHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRLedXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gRLednB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="buffer" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9wHsnB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxFwIHB4Ee2VJ9HmyiCPtw" position="40.0,-18.0"/>
+      <visibility xmi:id="_gRLed3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRLeeHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gRMFgHB3Ee2VJ9HmyiCPtw" sourceAnchor="78.0,0.0" targetAnchor="70.0,65.0" target="_mKgz4HB4Ee2VJ9HmyiCPtw" source="_gRMFiXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-Oo0XB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_qGzqUXB4Ee2VJ9HmyiCPtw" position="-766.0,810.0"/>
+    <stereotypes xmi:id="_gRMFgXB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-PP4HB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gRMFgnB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_nxGXMHB4Ee2VJ9HmyiCPtw" position="-88.0,-16.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gRMFg3B3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-Oo0nB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxFwIXB4Ee2VJ9HmyiCPtw" position="40.0,-50.0"/>
+      <visibility xmi:id="_gRMFhHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMFhXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gRMFhnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="output" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9wuwXB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxGXMXB4Ee2VJ9HmyiCPtw" position="-36.0,-15.0"/>
+      <visibility xmi:id="_gRMFh3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRMFiHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gRdLQHB3Ee2VJ9HmyiCPtw" sourceAnchor="0.0,143.0" targetAnchor="1319.0,291.0" superClass="_gRmVOXB3Ee2VJ9HmyiCPtw" subClass="_gQOcMHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9FZUHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_np7YMHB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gRdLQXB3Ee2VJ9HmyiCPtw" sourceAnchor="201.0,585.0" targetAnchor="74.0,0.0" target="_mKgM0HB4Ee2VJ9HmyiCPtw" source="_gRmVOXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-KXYHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKiCAHB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+    <stereotypes xmi:id="_gRiDwHB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-K-cHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gRhcsHB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_nxHlUHB4Ee2VJ9HmyiCPtw" position="40.0,-53.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gRhcsXB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-KXYXB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxG-QHB4Ee2VJ9HmyiCPtw" position="1.0,14.0"/>
+      <visibility xmi:id="_gRjR4XB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRjR4HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gRhcsnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="buffer" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9m9wHB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxHlUXB4Ee2VJ9HmyiCPtw" position="-68.0,-80.0"/>
+      <visibility xmi:id="_gRjR43B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRjR4nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gRdLQnB3Ee2VJ9HmyiCPtw" sourceAnchor="37.0,585.0" targetAnchor="70.0,0.0" target="_mKgz4HB4Ee2VJ9HmyiCPtw" source="_gRmVOXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-K-cXB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKiCAXB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+    <stereotypes xmi:id="_gRiDxHB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-LlgHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gRiDwXB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_nxIMYHB4Ee2VJ9HmyiCPtw" position="-93.0,23.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gRiDwnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-K-cnB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxHlUnB4Ee2VJ9HmyiCPtw" position="-20.0,12.0"/>
+      <visibility xmi:id="_gRjR5nB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRjR5XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gRiDw3B3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="output" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9m9wnB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxIMYXB4Ee2VJ9HmyiCPtw" position="1.0,-78.0"/>
+      <visibility xmi:id="_gRjR6HB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRjR53B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gRmVMHB3Ee2VJ9HmyiCPtw" sourceAnchor="339.0,585.0" targetAnchor="44.0,0.0" target="_mKha83B4Ee2VJ9HmyiCPtw" source="_gRmVOXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-LlgXB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKiCAnB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+    <stereotypes xmi:id="_gRmVMXB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-MMkHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gRmVMnB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_nxJagHB4Ee2VJ9HmyiCPtw" position="-92.0,23.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gRmVM3B3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-LlgnB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxIzcHB4Ee2VJ9HmyiCPtw" position="-19.0,12.0"/>
+      <visibility xmi:id="_gRmVNHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVNXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gRmVNnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="allBankActivity" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9nk0XB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_nxJagXB4Ee2VJ9HmyiCPtw" position="2.0,-78.0"/>
+      <visibility xmi:id="_gRmVN3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRmVOHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gSAk4HB3Ee2VJ9HmyiCPtw" sourceAnchor="1225.0,93.0" targetAnchor="67.0,65.0" target="_3YN2AHB4Ee2VJ9HmyiCPtw" source="_gSCaFXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-MMkXB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_3YOdEHB4Ee2VJ9HmyiCPtw" position="739.0,677.0"/>
+    <bendpoints xmi:id="_BFelg3B5Ee2VJ9HmyiCPtw" sourceX="255" sourceY="-1" targetX="-1" targetY="617"/>
+    <stereotypes xmi:id="_gSBzAnB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-MzoHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gSBL8HB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_3faqMXB4Ee2VJ9HmyiCPtw" position="-53.0,-324.99999999999994"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gSBzAHB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-MMknB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3faqMHB4Ee2VJ9HmyiCPtw" position="16.0,2.0"/>
+      <visibility xmi:id="_gSCaEXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSCaEHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gSBzAXB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="scan" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9qBEHB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3faqMnB4Ee2VJ9HmyiCPtw" position="2.0,56.0"/>
+      <visibility xmi:id="_gSCaE3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSCaEnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gSJHwHB3Ee2VJ9HmyiCPtw" sourceAnchor="0.0,123.0" targetAnchor="1319.0,291.0" superClass="_gRmVOXB3Ee2VJ9HmyiCPtw" subClass="_gSNZMHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9GncHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_np7_QHB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+    <bendpoints xmi:id="_BFd-cXB5Ee2VJ9HmyiCPtw" sourceX="-30" targetX="70" targetY="-326"/>
+    <bendpoints xmi:id="_BFd-cnB5Ee2VJ9HmyiCPtw" sourceX="-29" sourceY="326" targetX="71"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gSJu0HB3Ee2VJ9HmyiCPtw" sourceAnchor="1357.0,123.0" targetAnchor="39.0,0.0" target="_3YN2AHB4Ee2VJ9HmyiCPtw" source="_gSNZMHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-NasXB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_5OaioXB4Ee2VJ9HmyiCPtw" position="1581.0,23.0"/>
+    <bendpoints xmi:id="_BFd-cHB5Ee2VJ9HmyiCPtw" sourceX="340" targetY="-334"/>
+    <stereotypes xmi:id="_gSMLEXB3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-Nas3B3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gSLkAHB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_3fXm4HB4Ee2VJ9HmyiCPtw" position="2.0,165.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gSLkAXB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-NasnB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fW_0HB4Ee2VJ9HmyiCPtw" position="21.0,-67.0"/>
+      <visibility xmi:id="_gSMyIXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSMyIHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gSMLEHB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="scan" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9tEYXB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fXm4XB4Ee2VJ9HmyiCPtw" position="-54.0,-110.99999999999997"/>
+      <visibility xmi:id="_gSMyI3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSMyInB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_gSK88HB3Ee2VJ9HmyiCPtw" targetItem="_gSNZY3B3Ee2VJ9HmyiCPtw" sourceItem="_gSKV4HB3Ee2VJ9HmyiCPtw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_gSVVAHB3Ee2VJ9HmyiCPtw" sourceAnchor="0.0,123.0" targetAnchor="1319.0,291.0" superClass="_gRmVOXB3Ee2VJ9HmyiCPtw" subClass="_gSaNgHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9RmkHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_np8mUHB4Ee2VJ9HmyiCPtw" position="-838.0,-65.0"/>
+    <bendpoints xmi:id="_BFelgXB5Ee2VJ9HmyiCPtw" sourceX="-34" targetX="70" targetY="322"/>
+    <bendpoints xmi:id="_BFelgnB5Ee2VJ9HmyiCPtw" sourceX="-33" sourceY="-322" targetX="71"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_gSVVAXB3Ee2VJ9HmyiCPtw" sourceAnchor="1425.0,123.0" targetAnchor="39.0,65.0" target="_3YN2AHB4Ee2VJ9HmyiCPtw" source="_gSaNgHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-PP4XB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_5ObJsHB4Ee2VJ9HmyiCPtw" position="1581.0,23.0"/>
+    <bendpoints xmi:id="_BFelgHB5Ee2VJ9HmyiCPtw" sourceX="268" sourceY="-3" targetY="245"/>
+    <stereotypes xmi:id="_gSYYU3B3Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e-PP43B3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_gSYYUHB3Ee2VJ9HmyiCPtw" text="">
+      <visualProperties xmi:id="_3fY1AXB4Ee2VJ9HmyiCPtw" position="-47.0,-68.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_gSYYUXB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="">
+      <modelElement href="vpci-database-bank.uml#_e-PP4nB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fY1AHB4Ee2VJ9HmyiCPtw" position="16.0,-67.0"/>
+      <visibility xmi:id="_gSZmcHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSY_YHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_gSYYUnB3Ee2VJ9HmyiCPtw" aggregationKind="NONE" name="scan" navigable="true">
+      <modelElement href="vpci-database-bank.uml#_e9x84nB3Ee2VJ9HmyiCPtw"/>
+      <visualProperties xmi:id="_3fZcEHB4Ee2VJ9HmyiCPtw" position="-54.0,46.0"/>
+      <visibility xmi:id="_gSZmcnB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSZmcXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gREJsHB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gREwwHB3Ee2VJ9HmyiCPtw" text="*******************************&#xD;&#xA;&#x9; * ADD AN ACCOUNT TO THE DATABASE&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param lastName&#xD;&#xA;&#x9; * @param firstName&#xD;&#xA;&#x9; * @param sin&#xD;&#xA;&#x9; * @param birthYear&#xD;&#xA;&#x9; * @param birthMonth&#xD;&#xA;&#x9; * @param birthDay&#xD;&#xA;&#x9; * @param savingAccountBalance&#xD;&#xA;&#x9; * @param chequingAccountBalance&#xD;&#xA;&#x9; * @param creditCardBalance&#xD;&#xA;&#x9; ********************************" item="_gRMF7nB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF8XB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRFX0HB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRFX0XB3Ee2VJ9HmyiCPtw" text="********************************       &#xD;&#xA;&#x9; * DELETE ACCOUNT WITH NAME&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; *  @param lastName&#xD;&#xA;&#x9; *  @param firstName&#xD;&#xA;&#x9; *     &#xD;&#xA;&#x9; * *********************************" item="_gRMGDHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF8nB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRFX0nB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRFX03B3Ee2VJ9HmyiCPtw" text="********************************       &#xD;&#xA;&#x9; * DELETE ACCOUNT WITH SIN&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; *  @param sin&#xD;&#xA;&#x9; *     &#xD;&#xA;&#x9; * *********************************" item="_gRMGFXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF83B3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRF-4HB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRF-4XB3Ee2VJ9HmyiCPtw" text="*************************************************************************************************************&#xD;&#xA;&#x9; * FIND AN ACCOUNT WITH LAST NAME, FIRST NAME&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @TODO: ask if she wants the input in the format: &quot;last name, first name&quot; or if we can prompt them separately&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param lastName&#xD;&#xA;&#x9; * @param firstName&#xD;&#xA;&#x9; * @return 'found' as true if account exists within the database&#xD;&#xA;&#x9; ***************************************************************************************************************" item="_gRMGG3B3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF9HB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRF-4nB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRF-43B3Ee2VJ9HmyiCPtw" text="**************************************************************&#xD;&#xA;&#x9; * FIND AN ACCOUNT WITH SIN&#x9;&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @param sin&#xD;&#xA;&#x9; * @return 'found' as true if account exists within the database&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; ***************************************************************" item="_gRMGJnB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF9XB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRF-5HB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRGl8HB3Ee2VJ9HmyiCPtw" text="******************************************&#xD;&#xA;&#x9; * SORT THE ACCOUNTS BASED ON LAST NAME&#xD;&#xA;&#x9; * @note Function will begin to sort by first name if the last names are the same.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; *******************************************" item="_gRMGLnB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF9nB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRGl8XB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRGl8nB3Ee2VJ9HmyiCPtw" text="******************************************&#xD;&#xA;&#x9; * SORT THE ACCOUNTS BASED ON FIRST NAME&#xD;&#xA;&#x9; *******************************************" item="_gRMGMXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF93B3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRGl83B3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRGl9HB3Ee2VJ9HmyiCPtw" text="******************************************&#xD;&#xA;&#x9; * SORT THE ACCOUNTS BASED ON SIN &#xD;&#xA;&#x9; *******************************************" item="_gRMGNHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF-HB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gRHNAHB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gRHNAXB3Ee2VJ9HmyiCPtw" text="******************************************&#xD;&#xA;&#x9; * DISPLAY CUSTOMER SUMMARY&#xD;&#xA;&#x9; * @param firstName&#xD;&#xA;&#x9; * @param lastName&#xD;&#xA;&#x9; * @param sin&#xD;&#xA;&#x9; *******************************************" item="_gRMGN3B3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF-XB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_gSKV4HB3Ee2VJ9HmyiCPtw" sourceConnectionVisual="_gSK88HB3Ee2VJ9HmyiCPtw" text="ISSUE CREDIT CARED BASED ON NAME&#xD;&#xA;&#x9; * @param l&#xD;&#xA;&#x9; * @param f" item="_gSNZY3B3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e-GF8HB3Ee2VJ9HmyiCPtw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mKgz4HB4Ee2VJ9HmyiCPtw" name="BufferedWriter" associationsIn="_gRdLQnB3Ee2VJ9HmyiCPtw _gRMFgHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9Lf8HB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKha8HB4Ee2VJ9HmyiCPtw" position="-1570.0,377.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mKha8XB4Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e9MuEHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <visibility xmi:id="_mKha8nB4Ee2VJ9HmyiCPtw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mKgM0HB4Ee2VJ9HmyiCPtw" name="BufferedReader" associationsIn="_gRdLQXB3Ee2VJ9HmyiCPtw _gRLecHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9V4AHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKgM0XB4Ee2VJ9HmyiCPtw" position="-1410.0,383.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mKgM0nB4Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e9XGIHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <visibility xmi:id="_mKgM03B4Ee2VJ9HmyiCPtw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mKha83B4Ee2VJ9HmyiCPtw" name="ArrayList" associationsIn="_gRmVMHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_mKha9HB4Ee2VJ9HmyiCPtw" position="-1242.0,377.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mKha9XB4Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e9H1kHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <visibility xmi:id="_mKha9nB4Ee2VJ9HmyiCPtw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gRmVOXB3Ee2VJ9HmyiCPtw" name="Account" associationsOut="_gRdLQXB3Ee2VJ9HmyiCPtw _gRdLQnB3Ee2VJ9HmyiCPtw _gRmVMHB3Ee2VJ9HmyiCPtw" subclassedBy="_gRdLQHB3Ee2VJ9HmyiCPtw _gSJHwHB3Ee2VJ9HmyiCPtw _gSVVAHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e5Wv4HB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gRmVOnB3Ee2VJ9HmyiCPtw" position="-1537.0,-309.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gRmVO3B3Ee2VJ9HmyiCPtw" label="+"/>
+    <attributes xmi:id="_gRmVPHB3Ee2VJ9HmyiCPtw" name="lastName" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9fpAHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVPXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9gQEHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVPnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVP3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVQHB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVQXB3Ee2VJ9HmyiCPtw" name="firstName" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9heMHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVQnB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9heMXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVQ3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVRHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVRXB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVRnB3Ee2VJ9HmyiCPtw" name="sin" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9iFQHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVR3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9iFQXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVSHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVSXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVSnB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVS3B3Ee2VJ9HmyiCPtw" name="birthYear" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9isUHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVTHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9isUXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVTXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVTnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVT3B3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVUHB3Ee2VJ9HmyiCPtw" name="birthMonth" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9khgHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVUXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9khgXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVUnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVU3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVVHB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVVXB3Ee2VJ9HmyiCPtw" name="birthDay" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9khgnB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVVnB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9lIkHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVV3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVWHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVWXB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVWnB3Ee2VJ9HmyiCPtw" name="savingAccountBalance" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9lIkXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVW3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9lIknB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVXHB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRmVXXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVXnB3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVX3B3Ee2VJ9HmyiCPtw" name="chequingAccountBalance" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9lIk3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVYHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9lvoHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVYXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVYnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVY3B3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVZHB3Ee2VJ9HmyiCPtw" name="creditCardBalance" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9lvoXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVZXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9lvonB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVZnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVZ3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVaHB3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVaXB3Ee2VJ9HmyiCPtw" defaultValue="false" name="found" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9mWsXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVanB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9mWs3B3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVa3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRmVbHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVbXB3Ee2VJ9HmyiCPtw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVbnB3Ee2VJ9HmyiCPtw" name="buffer" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9m9wHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVb3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9m9wXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVcHB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRmVcXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVcnB3Ee2VJ9HmyiCPtw" name="BufferedReader">
+        <modelElement href="vpci-database-bank.uml#_e9V4AHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVc3B3Ee2VJ9HmyiCPtw" name="output" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9m9wnB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVdHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9m9w3B3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVdXB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRmVdnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVd3B3Ee2VJ9HmyiCPtw" name="BufferedWriter">
+        <modelElement href="vpci-database-bank.uml#_e9Lf8HB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVeHB3Ee2VJ9HmyiCPtw" name="line" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9m9xHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVeXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9nk0HB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVenB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRmVe3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVfHB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRmVfXB3Ee2VJ9HmyiCPtw" defaultValue="new ArrayList&lt;ArrayList&lt;String>>()" name="allBankActivity" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9nk0XB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVfnB3Ee2VJ9HmyiCPtw" name="Generics">
+        <modelElement href="vpci-database-bank.uml#_e9oy8HB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_gRmVf3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9paAXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVgHB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRmVgXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRmVgnB3Ee2VJ9HmyiCPtw" name="ArrayList">
+        <modelElement href="vpci-database-bank.uml#_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gRmVg3B3Ee2VJ9HmyiCPtw" name="Account">
+      <modelElement href="vpci-database-bank.uml#_e5f50HB3Ee2VJ9HmyiCPtw"/>
+      <keywords xmi:id="_gRmVhHB3Ee2VJ9HmyiCPtw" keyword="create"/>
+      <visibility xmi:id="_gRmVhXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVhnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRmVh3B3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e5iWEHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRmViHB3Ee2VJ9HmyiCPtw" name="Account">
+          <modelElement href="vpci-database-bank.uml#_e5Wv4HB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRmViXB3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e5gg4HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVinB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVi3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVjHB3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e5gg4XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVjXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVjnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVj3B3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e5gg4nB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVkHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVkXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVknB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e5gg43B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVk3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVlHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVlXB3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e5gg5HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVlnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVl3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVmHB3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e5gg5XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVmXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVmnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVm3B3Ee2VJ9HmyiCPtw" name="savAccBal">
+        <modelElement href="vpci-database-bank.uml#_e5gg5nB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVnHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVnXB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVnnB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+        <modelElement href="vpci-database-bank.uml#_e5gg53B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVn3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVoHB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVoXB3Ee2VJ9HmyiCPtw" name="credCardBal">
+        <modelElement href="vpci-database-bank.uml#_e5gg6HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVonB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVo3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRmVpHB3Ee2VJ9HmyiCPtw" name="getCustomerWithSin" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5i9IHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVpXB3Ee2VJ9HmyiCPtw" name="Generics">
+        <modelElement href="vpci-database-bank.uml#_e5kyUHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVpnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVp3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRmVqHB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e9XtMHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRmVqXB3Ee2VJ9HmyiCPtw" name="ArrayList">
+          <modelElement href="vpci-database-bank.uml#_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRmVqnB3Ee2VJ9HmyiCPtw" name="s">
+        <modelElement href="vpci-database-bank.uml#_e5i9IXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVq3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVrHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRmVrXB3Ee2VJ9HmyiCPtw" name="getCustomerWithName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5mAcHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVrnB3Ee2VJ9HmyiCPtw" name="Generics">
+        <modelElement href="vpci-database-bank.uml#_e5nOkHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVr3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVsHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRmVsXB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e9XtMXB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRmVsnB3Ee2VJ9HmyiCPtw" name="ArrayList">
+          <modelElement href="vpci-database-bank.uml#_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRmVs3B3Ee2VJ9HmyiCPtw" name="lN">
+        <modelElement href="vpci-database-bank.uml#_e5mAcXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVtHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVtXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVtnB3Ee2VJ9HmyiCPtw" name="fN">
+        <modelElement href="vpci-database-bank.uml#_e5mAcnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVt3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVuHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRmVuXB3Ee2VJ9HmyiCPtw" name="getAllAccounts" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5nOkXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRmVunB3Ee2VJ9HmyiCPtw" name="Generics">
+        <modelElement href="vpci-database-bank.uml#_e5ocsHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRmVu3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVvHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRmVvXB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e9YUQHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRmVvnB3Ee2VJ9HmyiCPtw" name="ArrayList">
+          <modelElement href="vpci-database-bank.uml#_e9HOgHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gRmVv3B3Ee2VJ9HmyiCPtw" name="getName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5ocsXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRmVwHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVwXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRmVwnB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e5pDwHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRmVw3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_gRmVxHB3Ee2VJ9HmyiCPtw" name="accountActivity" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5pDwXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRmVxXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmVxnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRmVx3B3Ee2VJ9HmyiCPtw" name="lN">
+        <modelElement href="vpci-database-bank.uml#_e5pDwnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVyHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVyXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVynB3Ee2VJ9HmyiCPtw" name="fN">
+        <modelElement href="vpci-database-bank.uml#_e5pDw3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVy3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVzHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmVzXB3Ee2VJ9HmyiCPtw" name="activity">
+        <modelElement href="vpci-database-bank.uml#_e5pq0HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmVznB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmVz3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRmV0HB3Ee2VJ9HmyiCPtw" name="getActivity">
+      <modelElement href="vpci-database-bank.uml#_e5pq0XB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRmV0XB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmV0nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRmV03B3Ee2VJ9HmyiCPtw" name="lN">
+        <modelElement href="vpci-database-bank.uml#_e5pq0nB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV1HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV1XB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmV1nB3Ee2VJ9HmyiCPtw" name="fN">
+        <modelElement href="vpci-database-bank.uml#_e5pq03B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV13B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV2HB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmV2XB3Ee2VJ9HmyiCPtw" name="uS">
+        <modelElement href="vpci-database-bank.uml#_e5qR4HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV2nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV23B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRmV3HB3Ee2VJ9HmyiCPtw" name="getSummary">
+      <modelElement href="vpci-database-bank.uml#_e5qR4XB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRmV3XB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRmV3nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRmV33B3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e5qR4nB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV4HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV4XB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmV4nB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e5qR43B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV43B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV5HB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRmV5XB3Ee2VJ9HmyiCPtw" name="s">
+        <modelElement href="vpci-database-bank.uml#_e5q48HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRmV5nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRmV53B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gQOcMHB3Ee2VJ9HmyiCPtw" name="ChequingAccount" associationsOut="_gQN1IHB3Ee2VJ9HmyiCPtw" generalizations="_gRdLQHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e51RAHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gQOcMXB3Ee2VJ9HmyiCPtw" position="-111.0,-161.0" size="1556.0,308.0"/>
+    <visibility xmi:id="_gQOcMnB3Ee2VJ9HmyiCPtw" label="+"/>
+    <attributes xmi:id="_gQOcM3B3Ee2VJ9HmyiCPtw" defaultValue="new Scanner (System.in)" name="scan" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9rPNHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gQOcNHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9r2QHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gQOcNXB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gQOcNnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gQOcN3B3Ee2VJ9HmyiCPtw" name="Scanner">
+        <modelElement href="vpci-database-bank.uml#_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gQOcOHB3Ee2VJ9HmyiCPtw" name="activity">
+      <modelElement href="vpci-database-bank.uml#_e9r2QXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gQOcOXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9sdUHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gQOcOnB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gQOcO3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gQOcPHB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gQOcPXB3Ee2VJ9HmyiCPtw" name="ChequingAccount">
+      <modelElement href="vpci-database-bank.uml#_e54UUHB3Ee2VJ9HmyiCPtw"/>
+      <keywords xmi:id="_gQOcPnB3Ee2VJ9HmyiCPtw" keyword="create"/>
+      <visibility xmi:id="_gQOcP3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQOcQHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gQOcQXB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e547ZHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gQOcQnB3Ee2VJ9HmyiCPtw" name="ChequingAccount">
+          <modelElement href="vpci-database-bank.uml#_e51RAHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gQOcQ3B3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e54UUXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcRHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcRXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcRnB3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e54UUnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcR3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcSHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcSXB3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e54UU3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcSnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcS3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcTHB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e54UVHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcTXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcTnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcT3B3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e54UVXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcUHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcUXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcUnB3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e54UVnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcU3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcVHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcVXB3Ee2VJ9HmyiCPtw" name="savAccBal">
+        <modelElement href="vpci-database-bank.uml#_e54UV3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcVnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcV3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcWHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+        <modelElement href="vpci-database-bank.uml#_e547YHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcWXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcWnB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcW3B3Ee2VJ9HmyiCPtw" name="credCardBal">
+        <modelElement href="vpci-database-bank.uml#_e547YXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcXHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcXXB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQOcXnB3Ee2VJ9HmyiCPtw" name="addAccount">
+      <modelElement href="vpci-database-bank.uml#_e55icHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQOcX3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQOcYHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQOcYXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e55icXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcYnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcY3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcZHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e56JgHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcZXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcZnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcZ3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e56JgXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcaHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcaXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQOcanB3Ee2VJ9HmyiCPtw" name="deposit">
+      <modelElement href="vpci-database-bank.uml#_e56wkHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQOca3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQOcbHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQOcbXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e56wkXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcbnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcb3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOccHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e56wknB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOccXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOccnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcc3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e56wk3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcdHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcdXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQOcdnB3Ee2VJ9HmyiCPtw" name="withdraw">
+      <modelElement href="vpci-database-bank.uml#_e56wlHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQOcd3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQOceHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQOceXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e57XoHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcenB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOce3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcfHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e57XoXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcfXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQOcfnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQOcf3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e57XonB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQOcgHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDQHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQPDQXB3Ee2VJ9HmyiCPtw" name="processCheque">
+      <modelElement href="vpci-database-bank.uml#_e57Xo3B3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQPDQnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQPDQ3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQPDRHB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e57XpHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDRXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDRnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDR3B3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e57XpXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDSHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDSXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDSnB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e57-sHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDS3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDTHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQPDTXB3Ee2VJ9HmyiCPtw" name="transfer">
+      <modelElement href="vpci-database-bank.uml#_e57-sXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQPDTnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQPDT3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQPDUHB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e57-snB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDUXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDUnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDU3B3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e57-s3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDVHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDVXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDVnB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e58lwHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDV3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDWHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gQPDWXB3Ee2VJ9HmyiCPtw" name="cancel">
+      <modelElement href="vpci-database-bank.uml#_e58lwXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gQPDWnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gQPDW3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gQPDXHB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e58lwnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDXXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDXnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDX3B3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e58lw3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDYHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDYXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gQPDYnB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e59M0HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gQPDY3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gQPDZHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gSNZMHB3Ee2VJ9HmyiCPtw" name="CreditCard" associationsOut="_gSJu0HB3Ee2VJ9HmyiCPtw" generalizations="_gSJHwHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e5-a8HB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gSNZMXB3Ee2VJ9HmyiCPtw" position="-117.0,-467.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gSNZMnB3Ee2VJ9HmyiCPtw" label="+"/>
+    <attributes xmi:id="_gSNZM3B3Ee2VJ9HmyiCPtw" name="activity" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9sdUXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSNZNHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9tEYHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSNZNXB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSNZNnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSNZN3B3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gSNZOHB3Ee2VJ9HmyiCPtw" defaultValue="new Scanner(System.in)" name="scan" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9tEYXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSNZOXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9tEY3B3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSNZOnB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSNZO3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSNZPHB3Ee2VJ9HmyiCPtw" name="Scanner">
+        <modelElement href="vpci-database-bank.uml#_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gSNZPXB3Ee2VJ9HmyiCPtw" name="line" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9tEZHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSNZPnB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9trcHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSNZP3B3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gSNZQHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSNZQXB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gSNZQnB3Ee2VJ9HmyiCPtw" name="CreditCard">
+      <modelElement href="vpci-database-bank.uml#_e5_CAHB3Ee2VJ9HmyiCPtw"/>
+      <keywords xmi:id="_gSNZQ3B3Ee2VJ9HmyiCPtw" keyword="create"/>
+      <visibility xmi:id="_gSNZRHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSNZRXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gSNZRnB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e5_pG3B3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gSNZR3B3Ee2VJ9HmyiCPtw" name="CreditCard">
+          <modelElement href="vpci-database-bank.uml#_e5-a8HB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gSNZSHB3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e5_pEHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZSXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZSnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZS3B3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e5_pEXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZTHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZTXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZTnB3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e5_pEnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZT3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZUHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZUXB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e5_pE3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZUnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZU3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZVHB3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e5_pFHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZVXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZVnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZV3B3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e5_pFXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZWHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZWXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZWnB3Ee2VJ9HmyiCPtw" name="savAccBal">
+        <modelElement href="vpci-database-bank.uml#_e5_pFnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZW3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZXHB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZXXB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+        <modelElement href="vpci-database-bank.uml#_e5_pF3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZXnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZX3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZYHB3Ee2VJ9HmyiCPtw" name="credCardBal">
+        <modelElement href="vpci-database-bank.uml#_e5_pGHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZYXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZYnB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSNZY3B3Ee2VJ9HmyiCPtw" comments="_gSKV4HB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gSK88HB3Ee2VJ9HmyiCPtw" name="issueCreditCard">
+      <modelElement href="vpci-database-bank.uml#_e6A3MHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSNZZHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSNZZXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSNZZnB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6A3MXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZZ3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZaHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZaXB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6A3MnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZanB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZa3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZbHB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6A3M3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZbXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZbnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSNZb3B3Ee2VJ9HmyiCPtw" name="processPurchase">
+      <modelElement href="vpci-database-bank.uml#_e6BeQHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSNZcHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSNZcXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSNZcnB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6BeQXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZc3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZdHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZdXB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6BeQnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZdnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZd3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZeHB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6BeQ3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZeXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZenB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSNZe3B3Ee2VJ9HmyiCPtw" name="processPayment">
+      <modelElement href="vpci-database-bank.uml#_e6BeRHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSNZfHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSNZfXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSNZfnB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6BeRXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZf3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZgHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZgXB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6BeRnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZgnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZg3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZhHB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6CFUHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZhXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZhnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSNZh3B3Ee2VJ9HmyiCPtw" name="cancel">
+      <modelElement href="vpci-database-bank.uml#_e6CFUXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSNZiHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSNZiXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSNZinB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6CFUnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZi3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZjHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZjXB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6CFU3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZjnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZj3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSNZkHB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6CFVHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSNZkXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSNZknB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gSaNgHB3Ee2VJ9HmyiCPtw" name="SavingAccount" associationsOut="_gSVVAXB3Ee2VJ9HmyiCPtw" generalizations="_gSVVAHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e6L2UHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gSaNgXB3Ee2VJ9HmyiCPtw" position="-113.0,181.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gSaNgnB3Ee2VJ9HmyiCPtw" label="+"/>
+    <attributes xmi:id="_gSaNg3B3Ee2VJ9HmyiCPtw" name="activity" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9x84HB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSaNhHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9x84XB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSaNhXB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSaNhnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSaNh3B3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gSaNiHB3Ee2VJ9HmyiCPtw" defaultValue="new Scanner (System.in)" name="scan" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9x84nB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSaNiXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9x85HB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSaNinB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSaNi3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSaNjHB3Ee2VJ9HmyiCPtw" name="Scanner">
+        <modelElement href="vpci-database-bank.uml#_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gSaNjXB3Ee2VJ9HmyiCPtw" name="SavingAccount">
+      <modelElement href="vpci-database-bank.uml#_e6NEcHB3Ee2VJ9HmyiCPtw"/>
+      <keywords xmi:id="_gSaNjnB3Ee2VJ9HmyiCPtw" keyword="create"/>
+      <visibility xmi:id="_gSaNj3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaNkHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gSaNkXB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e6NrgnB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gSaNknB3Ee2VJ9HmyiCPtw" name="SavingAccount">
+          <modelElement href="vpci-database-bank.uml#_e6L2UHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gSaNk3B3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e6NEcXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNlHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNlXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNlnB3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e6NEcnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNl3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNmHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNmXB3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e6NEc3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNmnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNm3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNnHB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e6NEdHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNnXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNnnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNn3B3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e6NEdXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNoHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNoXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNonB3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e6NEdnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNo3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNpHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNpXB3Ee2VJ9HmyiCPtw" name="savAccBal">
+        <modelElement href="vpci-database-bank.uml#_e6NEd3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNpnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNp3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNqHB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+        <modelElement href="vpci-database-bank.uml#_e6NEeHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNqXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNqnB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNq3B3Ee2VJ9HmyiCPtw" name="credCardBal">
+        <modelElement href="vpci-database-bank.uml#_e6NEeXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNrHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNrXB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSaNrnB3Ee2VJ9HmyiCPtw" name="addAccount">
+      <modelElement href="vpci-database-bank.uml#_e6OSkHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSaNr3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaNsHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSaNsXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6OSkXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNsnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNs3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNtHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6OSknB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNtXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNtnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNt3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6OSk3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNuHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNuXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSaNunB3Ee2VJ9HmyiCPtw" name="deposit">
+      <modelElement href="vpci-database-bank.uml#_e6OSlHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSaNu3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaNvHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSaNvXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6OSlXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNvnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNv3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNwHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6OSlnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNwXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNwnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNw3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6OSl3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNxHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNxXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSaNxnB3Ee2VJ9HmyiCPtw" name="withdraw">
+      <modelElement href="vpci-database-bank.uml#_e6O5oHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSaNx3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaNyHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSaNyXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6O5oXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNynB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNy3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNzHB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6O5onB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaNzXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaNznB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaNz3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6O5o3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN0HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN0XB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSaN0nB3Ee2VJ9HmyiCPtw" name="transfer">
+      <modelElement href="vpci-database-bank.uml#_e6PgsHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSaN03B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaN1HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSaN1XB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6PgsXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN1nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN13B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaN2HB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6PgsnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN2XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN2nB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaN23B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6Pgs3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN3HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN3XB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSaN3nB3Ee2VJ9HmyiCPtw" name="cancel">
+      <modelElement href="vpci-database-bank.uml#_e6PgtHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSaN33B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSaN4HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSaN4XB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6QHwHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN4nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN43B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaN5HB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6QHwXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN5XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN5nB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSaN53B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6QHwnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSaN6HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSaN6XB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_3YN2AHB4Ee2VJ9HmyiCPtw" name="Scanner" associationsIn="_gSAk4HB3Ee2VJ9HmyiCPtw _gQN1IHB3Ee2VJ9HmyiCPtw _gSJu0HB3Ee2VJ9HmyiCPtw _gSVVAXB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_3YN2AXB4Ee2VJ9HmyiCPtw" position="1541.0,-9.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_3YN2AnB4Ee2VJ9HmyiCPtw" name="Reference">
+      <modelElement href="vpci-database-bank.uml#_e9Q_gHB3Ee2VJ9HmyiCPtw"/>
+    </stereotypes>
+    <visibility xmi:id="_3YN2A3B4Ee2VJ9HmyiCPtw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gSCaFXB3Ee2VJ9HmyiCPtw" name="Bank" associationsOut="_gSAk4HB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e5vxcHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gSCaFnB3Ee2VJ9HmyiCPtw" position="127.0,581.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gSCaF3B3Ee2VJ9HmyiCPtw" label="~"/>
+    <attributes xmi:id="_gSCaGHB3Ee2VJ9HmyiCPtw" defaultValue="new Scanner (System.in)" name="scan" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9qBEHB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSCaGXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9qoIXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSCaGnB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSCaG3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSCaHHB3Ee2VJ9HmyiCPtw" name="Scanner">
+        <modelElement href="vpci-database-bank.uml#_e9QYcHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gSCaHXB3Ee2VJ9HmyiCPtw" defaultValue="false" name="subMenuOpen" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9qoInB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSCaHnB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9rPMHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSCaH3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSCaIHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSCaIXB3Ee2VJ9HmyiCPtw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gSCaInB3Ee2VJ9HmyiCPtw" defaultValue="false" name="error" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9rPMXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gSCaI3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9rPM3B3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gSCaJHB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gSCaJXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gSCaJnB3Ee2VJ9HmyiCPtw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gSCaJ3B3Ee2VJ9HmyiCPtw" name="displayMainMenu" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5w_kHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSCaKHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSCaKXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gSCaKnB3Ee2VJ9HmyiCPtw" name="displaySubMenu" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5yNsHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSCaK3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSCaLHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSCaLXB3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e5yNsXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaLnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaL3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaMHB3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e5y0wHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaMXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaMnB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaM3B3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e5y0wXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaNHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaNXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaNnB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e5y0wnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaN3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaOHB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaOXB3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e5y0w3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaOnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaO3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaPHB3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e5y0xHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaPXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaPnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaP3B3Ee2VJ9HmyiCPtw" name="savAcc">
+        <modelElement href="vpci-database-bank.uml#_e5y0xXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaQHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaQXB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaQnB3Ee2VJ9HmyiCPtw" name="cheqAcc">
+        <modelElement href="vpci-database-bank.uml#_e5y0xnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaQ3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaRHB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gSCaRXB3Ee2VJ9HmyiCPtw" name="credBal">
+        <modelElement href="vpci-database-bank.uml#_e5y0x3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaRnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gSCaR3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gSCaSHB3Ee2VJ9HmyiCPtw" name="main" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e5zb0HB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gSCaSXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gSCaSnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gSCaS3B3Ee2VJ9HmyiCPtw" name="args">
+        <modelElement href="vpci-database-bank.uml#_e5zb0XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gSCaTHB3Ee2VJ9HmyiCPtw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_gSCaTXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_gRMFiXB3Ee2VJ9HmyiCPtw" name="Customer" associationsOut="_gRLecHB3Ee2VJ9HmyiCPtw _gRMFgHB3Ee2VJ9HmyiCPtw">
+    <modelElement href="vpci-database-bank.uml#_e6DTcHB3Ee2VJ9HmyiCPtw"/>
+    <visualProperties xmi:id="_gRMFinB3Ee2VJ9HmyiCPtw" position="-1578.0,476.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_gRMFi3B3Ee2VJ9HmyiCPtw" label="+"/>
+    <attributes xmi:id="_gRMFjHB3Ee2VJ9HmyiCPtw" name="lastName">
+      <modelElement href="vpci-database-bank.uml#_e9trcXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFjXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9trcnB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFjnB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFj3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFkHB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFkXB3Ee2VJ9HmyiCPtw" name="firstName">
+      <modelElement href="vpci-database-bank.uml#_e9trc3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFknB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9uSgHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFk3B3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFlHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFlXB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFlnB3Ee2VJ9HmyiCPtw" name="sin">
+      <modelElement href="vpci-database-bank.uml#_e9uSgXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFl3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9uSgnB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFmHB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFmXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFmnB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFm3B3Ee2VJ9HmyiCPtw" name="birthYear">
+      <modelElement href="vpci-database-bank.uml#_e9uSg3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFnHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9u5kHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFnXB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFnnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFn3B3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFoHB3Ee2VJ9HmyiCPtw" name="birthMonth">
+      <modelElement href="vpci-database-bank.uml#_e9u5kXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFoXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9u5knB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFonB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFo3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFpHB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFpXB3Ee2VJ9HmyiCPtw" name="birthDay">
+      <modelElement href="vpci-database-bank.uml#_e9u5k3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFpnB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9u5lHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFp3B3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFqHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFqXB3Ee2VJ9HmyiCPtw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFqnB3Ee2VJ9HmyiCPtw" name="savingAccountBalance">
+      <modelElement href="vpci-database-bank.uml#_e9u5lXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFq3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9vgoHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFrHB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFrXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFrnB3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFr3B3Ee2VJ9HmyiCPtw" name="chequingAccountBalance">
+      <modelElement href="vpci-database-bank.uml#_e9vgoXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFsHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9vgonB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFsXB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFsnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFs3B3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFtHB3Ee2VJ9HmyiCPtw" name="creditCardBalance">
+      <modelElement href="vpci-database-bank.uml#_e9vgo3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFtXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9vgpHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFtnB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFt3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFuHB3Ee2VJ9HmyiCPtw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFuXB3Ee2VJ9HmyiCPtw" defaultValue="false" name="found" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9vgpXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFunB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9wHsXB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFu3B3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRMFvHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFvXB3Ee2VJ9HmyiCPtw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFvnB3Ee2VJ9HmyiCPtw" name="buffer" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9wHsnB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFv3B3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9wuwHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFwHB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRMFwXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFwnB3Ee2VJ9HmyiCPtw" name="BufferedReader">
+        <modelElement href="vpci-database-bank.uml#_e9V4AHB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFw3B3Ee2VJ9HmyiCPtw" name="output" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9wuwXB3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFxHB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9wuwnB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFxXB3Ee2VJ9HmyiCPtw" label="~"/>
+      <cardinality xmi:id="_gRMFxnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFx3B3Ee2VJ9HmyiCPtw" name="BufferedWriter">
+        <modelElement href="vpci-database-bank.uml#_e9Lf8HB3Ee2VJ9HmyiCPtw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_gRMFyHB3Ee2VJ9HmyiCPtw" name="line" staticAttribute="true">
+      <modelElement href="vpci-database-bank.uml#_e9wuw3B3Ee2VJ9HmyiCPtw"/>
+      <stereotypes xmi:id="_gRMFyXB3Ee2VJ9HmyiCPtw" name="LegacyStyledElement">
+        <modelElement href="vpci-database-bank.uml#_e9wuxHB3Ee2VJ9HmyiCPtw"/>
+      </stereotypes>
+      <visibility xmi:id="_gRMFynB3Ee2VJ9HmyiCPtw" label="-"/>
+      <cardinality xmi:id="_gRMFy3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <type xmi:id="_gRMFzHB3Ee2VJ9HmyiCPtw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_gRMFzXB3Ee2VJ9HmyiCPtw" name="Customer">
+      <modelElement href="vpci-database-bank.uml#_e6FIoHB3Ee2VJ9HmyiCPtw"/>
+      <keywords xmi:id="_gRMFznB3Ee2VJ9HmyiCPtw" keyword="create"/>
+      <visibility xmi:id="_gRMFz3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMF0HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRMF0XB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e6FvuHB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRMF0nB3Ee2VJ9HmyiCPtw" name="Customer">
+          <modelElement href="vpci-database-bank.uml#_e6DTcHB3Ee2VJ9HmyiCPtw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRMF03B3Ee2VJ9HmyiCPtw" name="lName">
+        <modelElement href="vpci-database-bank.uml#_e6FIoXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF1HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF1XB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF1nB3Ee2VJ9HmyiCPtw" name="fName">
+        <modelElement href="vpci-database-bank.uml#_e6FIonB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF13B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF2HB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF2XB3Ee2VJ9HmyiCPtw" name="userSin">
+        <modelElement href="vpci-database-bank.uml#_e6FIo3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF2nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF23B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF3HB3Ee2VJ9HmyiCPtw" name="birthY">
+        <modelElement href="vpci-database-bank.uml#_e6FvsHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF3XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF3nB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF33B3Ee2VJ9HmyiCPtw" name="birthM">
+        <modelElement href="vpci-database-bank.uml#_e6FvsXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF4HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF4XB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF4nB3Ee2VJ9HmyiCPtw" name="birthD">
+        <modelElement href="vpci-database-bank.uml#_e6FvsnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF43B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF5HB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF5XB3Ee2VJ9HmyiCPtw" name="savAccBal">
+        <modelElement href="vpci-database-bank.uml#_e6Fvs3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF5nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF53B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF6HB3Ee2VJ9HmyiCPtw" name="cheqAccBal">
+        <modelElement href="vpci-database-bank.uml#_e6FvtHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF6XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF6nB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF63B3Ee2VJ9HmyiCPtw" name="credCardBal">
+        <modelElement href="vpci-database-bank.uml#_e6FvtXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF7HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF7XB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMF7nB3Ee2VJ9HmyiCPtw" comments="_gREJsHB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gREwwHB3Ee2VJ9HmyiCPtw" name="addAccount" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6GWwHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMF73B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMF8HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRMF8XB3Ee2VJ9HmyiCPtw" name="lastName">
+        <modelElement href="vpci-database-bank.uml#_e6GWwXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF8nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF83B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF9HB3Ee2VJ9HmyiCPtw" name="firstName">
+        <modelElement href="vpci-database-bank.uml#_e6GWwnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF9XB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF9nB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF93B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6GWw3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF-HB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF-XB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF-nB3Ee2VJ9HmyiCPtw" name="birthYear">
+        <modelElement href="vpci-database-bank.uml#_e6GWxHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF-3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF_HB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMF_XB3Ee2VJ9HmyiCPtw" name="birthMonth">
+        <modelElement href="vpci-database-bank.uml#_e6GWxXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMF_nB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMF_3B3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGAHB3Ee2VJ9HmyiCPtw" name="birthDay">
+        <modelElement href="vpci-database-bank.uml#_e6GWxnB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGAXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGAnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGA3B3Ee2VJ9HmyiCPtw" name="savingAccountBalance">
+        <modelElement href="vpci-database-bank.uml#_e6G90HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGBHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGBXB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGBnB3Ee2VJ9HmyiCPtw" name="chequingAccountBalance">
+        <modelElement href="vpci-database-bank.uml#_e6G90XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGB3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGCHB3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGCXB3Ee2VJ9HmyiCPtw" name="creditCardBalance">
+        <modelElement href="vpci-database-bank.uml#_e6G90nB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGCnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGC3B3Ee2VJ9HmyiCPtw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGDHB3Ee2VJ9HmyiCPtw" comments="_gRFX0HB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRFX0XB3Ee2VJ9HmyiCPtw" name="deleteWithName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6G903B3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGDXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGDnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRMGD3B3Ee2VJ9HmyiCPtw" name="lastName">
+        <modelElement href="vpci-database-bank.uml#_e6G91HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGEHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGEXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGEnB3Ee2VJ9HmyiCPtw" name="firstName">
+        <modelElement href="vpci-database-bank.uml#_e6G91XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGE3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGFHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGFXB3Ee2VJ9HmyiCPtw" comments="_gRFX0nB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRFX03B3Ee2VJ9HmyiCPtw" name="deleteWithSin" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6Hk4HB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGFnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGF3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRMGGHB3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6Hk4XB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGGXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGGnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGG3B3Ee2VJ9HmyiCPtw" comments="_gRF-4HB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRF-4XB3Ee2VJ9HmyiCPtw" name="findWithName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6Hk4nB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGHHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGHXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRMGHnB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e6IL8XB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRMGH3B3Ee2VJ9HmyiCPtw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRMGIHB3Ee2VJ9HmyiCPtw" name="lastName">
+        <modelElement href="vpci-database-bank.uml#_e6Hk43B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGIXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGInB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGI3B3Ee2VJ9HmyiCPtw" name="firstName">
+        <modelElement href="vpci-database-bank.uml#_e6IL8HB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGJHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGJXB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGJnB3Ee2VJ9HmyiCPtw" comments="_gRF-4nB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRF-43B3Ee2VJ9HmyiCPtw" name="findWithSin" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6IL8nB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGJ3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGKHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_gRMGKXB3Ee2VJ9HmyiCPtw">
+        <modelElement href="vpci-database-bank.uml#_e6IL9HB3Ee2VJ9HmyiCPtw"/>
+        <type xmi:id="_gRMGKnB3Ee2VJ9HmyiCPtw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_gRMGK3B3Ee2VJ9HmyiCPtw" name="sin">
+        <modelElement href="vpci-database-bank.uml#_e6IL83B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGLHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGLXB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGLnB3Ee2VJ9HmyiCPtw" comments="_gRF-5HB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRGl8HB3Ee2VJ9HmyiCPtw" name="sortByLastName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6IL9XB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGL3B3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGMHB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gRMGMXB3Ee2VJ9HmyiCPtw" comments="_gRGl8XB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRGl8nB3Ee2VJ9HmyiCPtw" name="sortByFirstName" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6IzAHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGMnB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGM3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gRMGNHB3Ee2VJ9HmyiCPtw" comments="_gRGl83B3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRGl9HB3Ee2VJ9HmyiCPtw" name="sortBySin" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6IzAXB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGNXB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGNnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_gRMGN3B3Ee2VJ9HmyiCPtw" comments="_gRHNAHB3Ee2VJ9HmyiCPtw" targetConnectionVisual="_gRHNAXB3Ee2VJ9HmyiCPtw" name="displayCustomerSummary" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6IzAnB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGOHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGOXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_gRMGOnB3Ee2VJ9HmyiCPtw" name="f">
+        <modelElement href="vpci-database-bank.uml#_e6IzA3B3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGO3B3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGPHB3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGPXB3Ee2VJ9HmyiCPtw" name="l">
+        <modelElement href="vpci-database-bank.uml#_e6IzBHB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGPnB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGP3B3Ee2VJ9HmyiCPtw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_gRMGQHB3Ee2VJ9HmyiCPtw" name="s">
+        <modelElement href="vpci-database-bank.uml#_e6IzBXB3Ee2VJ9HmyiCPtw"/>
+        <cardinality xmi:id="_gRMGQXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+        <type xmi:id="_gRMGQnB3Ee2VJ9HmyiCPtw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_gRMGQ3B3Ee2VJ9HmyiCPtw" name="displayAll" staticOperation="true">
+      <modelElement href="vpci-database-bank.uml#_e6JaEHB3Ee2VJ9HmyiCPtw"/>
+      <visibility xmi:id="_gRMGRHB3Ee2VJ9HmyiCPtw" label="+"/>
+      <cardinality xmi:id="_gRMGRXB3Ee2VJ9HmyiCPtw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
